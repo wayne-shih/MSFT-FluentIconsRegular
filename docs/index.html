@@ -1,0 +1,4696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fluent-icons-regular</title>
+
+    <style type="text/css">
+
+        html {
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+
+        body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+        }
+
+        ol, ul {
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        body {
+            font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+            margin: 0;
+            padding: 10px 20px;
+            text-align: center;
+            background-color: #f8f8f8;
+        }
+
+        h1 {
+            font-weight: bold;
+            margin: 24px;
+        }
+
+        .icon {
+            width: 100px;
+            display: inline-block;
+            margin: 8px;
+        }
+
+        .icon:hover {
+            cursor: pointer;
+        }
+        
+        .icon:hover .inner {
+            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.24);
+        }
+
+        .icon .inner {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            background-color: white;
+            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.06);
+            border-radius: 4px;
+            transition: all .3s ease-in-out;
+        }
+
+        .icon .inner i {
+            padding: 16px 0;
+            font-size: 48px;
+            color: #333;
+            overflow: hidden;            
+        }
+
+        .icon .inner::before {
+            overflow: hidden;
+        }
+
+        .label {
+            margin-top: 8px;
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 4px;
+            font-size: 10px;
+            color: #666;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        #search {
+            display: flex;
+            width: 100%;
+            font-size: 16px;
+            padding: 12px 16px;
+            margin: 0 auto;
+            max-width: 900px;
+            margin-bottom: 24px;
+            border: 1px solid rgba(0,0,0,.1);
+            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.06);
+        }
+
+        #search:focus {
+            outline: none !important;
+            border-color: #18a0fb;
+        }
+
+        #copier {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+
+        #notification {
+            position: fixed;
+            margin: auto;
+            bottom: 40px;
+            left: 50%;
+            width: auto;
+            transform: translateX(-50%);
+            color: white;
+            background-color: #212121;
+            padding: 8px 24px;
+            border-radius: 8px;
+            opacity: 0;
+            transition: opacity .3s ease-in-out;
+            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        #notification-id {
+            font-weight: bold;
+        }
+
+        #notification.show{
+            opacity: .9;
+        }
+
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="fluent-icons-regular.css" />
+</head>
+<body>
+
+    <h1>fluent-icons-regular</h1>
+
+    <input type="text" id="search" placeholder="Search for icon names">
+
+    <div id="icons">
+        <div class="icon" data-name="Access-Time" title="Access-Time">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Access-Time"></i>
+            </span>
+            <br>
+            <span class='label'>Access-Time</span>
+        </div>
+        <div class="icon" data-name="Accessibility" title="Accessibility">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Accessibility"></i>
+            </span>
+            <br>
+            <span class='label'>Accessibility</span>
+        </div>
+        <div class="icon" data-name="Activity" title="Activity">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Activity"></i>
+            </span>
+            <br>
+            <span class='label'>Activity</span>
+        </div>
+        <div class="icon" data-name="Add-Circle" title="Add-Circle">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Add-Circle"></i>
+            </span>
+            <br>
+            <span class='label'>Add-Circle</span>
+        </div>
+        <div class="icon" data-name="Add" title="Add">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Add"></i>
+            </span>
+            <br>
+            <span class='label'>Add</span>
+        </div>
+        <div class="icon" data-name="Address-Book-Number" title="Address-Book-Number">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Address-Book-Number"></i>
+            </span>
+            <br>
+            <span class='label'>Address-Book-Number</span>
+        </div>
+        <div class="icon" data-name="Airplane" title="Airplane">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Airplane"></i>
+            </span>
+            <br>
+            <span class='label'>Airplane</span>
+        </div>
+        <div class="icon" data-name="Alert-Off" title="Alert-Off">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Alert-Off"></i>
+            </span>
+            <br>
+            <span class='label'>Alert-Off</span>
+        </div>
+        <div class="icon" data-name="Alert-On" title="Alert-On">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Alert-On"></i>
+            </span>
+            <br>
+            <span class='label'>Alert-On</span>
+        </div>
+        <div class="icon" data-name="Alert-Snooze" title="Alert-Snooze">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Alert-Snooze"></i>
+            </span>
+            <br>
+            <span class='label'>Alert-Snooze</span>
+        </div>
+        <div class="icon" data-name="Alert-Urgent" title="Alert-Urgent">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Alert-Urgent"></i>
+            </span>
+            <br>
+            <span class='label'>Alert-Urgent</span>
+        </div>
+        <div class="icon" data-name="Alert" title="Alert">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Alert"></i>
+            </span>
+            <br>
+            <span class='label'>Alert</span>
+        </div>
+        <div class="icon" data-name="App-Folder" title="App-Folder">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-App-Folder"></i>
+            </span>
+            <br>
+            <span class='label'>App-Folder</span>
+        </div>
+        <div class="icon" data-name="App-Generic" title="App-Generic">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-App-Generic"></i>
+            </span>
+            <br>
+            <span class='label'>App-Generic</span>
+        </div>
+        <div class="icon" data-name="App-Recent" title="App-Recent">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-App-Recent"></i>
+            </span>
+            <br>
+            <span class='label'>App-Recent</span>
+        </div>
+        <div class="icon" data-name="App-Span" title="App-Span">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-App-Span"></i>
+            </span>
+            <br>
+            <span class='label'>App-Span</span>
+        </div>
+        <div class="icon" data-name="App-Title" title="App-Title">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-App-Title"></i>
+            </span>
+            <br>
+            <span class='label'>App-Title</span>
+        </div>
+        <div class="icon" data-name="App-Unspan" title="App-Unspan">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-App-Unspan"></i>
+            </span>
+            <br>
+            <span class='label'>App-Unspan</span>
+        </div>
+        <div class="icon" data-name="Apps-Add-In" title="Apps-Add-In">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Apps-Add-In"></i>
+            </span>
+            <br>
+            <span class='label'>Apps-Add-In</span>
+        </div>
+        <div class="icon" data-name="Apps-List" title="Apps-List">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Apps-List"></i>
+            </span>
+            <br>
+            <span class='label'>Apps-List</span>
+        </div>
+        <div class="icon" data-name="Apps" title="Apps">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Apps"></i>
+            </span>
+            <br>
+            <span class='label'>Apps</span>
+        </div>
+        <div class="icon" data-name="Archive" title="Archive">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Archive"></i>
+            </span>
+            <br>
+            <span class='label'>Archive</span>
+        </div>
+        <div class="icon" data-name="Arrow-Clockwise" title="Arrow-Clockwise">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Clockwise"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Clockwise</span>
+        </div>
+        <div class="icon" data-name="Arrow-Counterclockwise" title="Arrow-Counterclockwise">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Counterclockwise"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Counterclockwise</span>
+        </div>
+        <div class="icon" data-name="Arrow-Down-Left" title="Arrow-Down-Left">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Down-Left"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Down-Left</span>
+        </div>
+        <div class="icon" data-name="Arrow-Down-Right-Circle" title="Arrow-Down-Right-Circle">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Down-Right-Circle"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Down-Right-Circle</span>
+        </div>
+        <div class="icon" data-name="Arrow-Down" title="Arrow-Down">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Down"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Down</span>
+        </div>
+        <div class="icon" data-name="Arrow-Download" title="Arrow-Download">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Download"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Download</span>
+        </div>
+        <div class="icon" data-name="Arrow-Enter" title="Arrow-Enter">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Enter"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Enter</span>
+        </div>
+        <div class="icon" data-name="Arrow-Expand" title="Arrow-Expand">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Expand"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Expand</span>
+        </div>
+        <div class="icon" data-name="Arrow-Export" title="Arrow-Export">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Export"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Export</span>
+        </div>
+        <div class="icon" data-name="Arrow-Forward" title="Arrow-Forward">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Forward"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Forward</span>
+        </div>
+        <div class="icon" data-name="Arrow-Import" title="Arrow-Import">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Import"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Import</span>
+        </div>
+        <div class="icon" data-name="Arrow-Left" title="Arrow-Left">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Left"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Left</span>
+        </div>
+        <div class="icon" data-name="Arrow-Maximize" title="Arrow-Maximize">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Maximize"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Maximize</span>
+        </div>
+        <div class="icon" data-name="Arrow-Minimize" title="Arrow-Minimize">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Minimize"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Minimize</span>
+        </div>
+        <div class="icon" data-name="Arrow-Next" title="Arrow-Next">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Next"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Next</span>
+        </div>
+        <div class="icon" data-name="Arrow-Previous" title="Arrow-Previous">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Previous"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Previous</span>
+        </div>
+        <div class="icon" data-name="Arrow-Redo" title="Arrow-Redo">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Redo"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Redo</span>
+        </div>
+        <div class="icon" data-name="Arrow-Repeat-All-Off" title="Arrow-Repeat-All-Off">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Repeat-All-Off"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Repeat-All-Off</span>
+        </div>
+        <div class="icon" data-name="Arrow-Reply-All" title="Arrow-Reply-All">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Reply-All"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Reply-All</span>
+        </div>
+        <div class="icon" data-name="Arrow-Reply" title="Arrow-Reply">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Reply"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Reply</span>
+        </div>
+        <div class="icon" data-name="Arrow-Right-Circle" title="Arrow-Right-Circle">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Right-Circle"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Right-Circle</span>
+        </div>
+        <div class="icon" data-name="Arrow-Right" title="Arrow-Right">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Right"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Right</span>
+        </div>
+        <div class="icon" data-name="Arrow-Sort" title="Arrow-Sort">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Sort"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Sort</span>
+        </div>
+        <div class="icon" data-name="Arrow-Swap" title="Arrow-Swap">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Swap"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Swap</span>
+        </div>
+        <div class="icon" data-name="Arrow-Sync-Circle" title="Arrow-Sync-Circle">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Sync-Circle"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Sync-Circle</span>
+        </div>
+        <div class="icon" data-name="Arrow-Sync" title="Arrow-Sync">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Sync"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Sync</span>
+        </div>
+        <div class="icon" data-name="Arrow-Trending" title="Arrow-Trending">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Trending"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Trending</span>
+        </div>
+        <div class="icon" data-name="Arrow-Undo" title="Arrow-Undo">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Undo"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Undo</span>
+        </div>
+        <div class="icon" data-name="Arrow-Up-Left" title="Arrow-Up-Left">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Up-Left"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Up-Left</span>
+        </div>
+        <div class="icon" data-name="Arrow-Up-Right" title="Arrow-Up-Right">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Up-Right"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Up-Right</span>
+        </div>
+        <div class="icon" data-name="Arrow-Up" title="Arrow-Up">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Up"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Up</span>
+        </div>
+        <div class="icon" data-name="Arrow-Upload" title="Arrow-Upload">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrow-Upload"></i>
+            </span>
+            <br>
+            <span class='label'>Arrow-Upload</span>
+        </div>
+        <div class="icon" data-name="Arrows-Bidirectional" title="Arrows-Bidirectional">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Arrows-Bidirectional"></i>
+            </span>
+            <br>
+            <span class='label'>Arrows-Bidirectional</span>
+        </div>
+        <div class="icon" data-name="Assignments" title="Assignments">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Assignments"></i>
+            </span>
+            <br>
+            <span class='label'>Assignments</span>
+        </div>
+        <div class="icon" data-name="Attach-With-Text" title="Attach-With-Text">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Attach-With-Text"></i>
+            </span>
+            <br>
+            <span class='label'>Attach-With-Text</span>
+        </div>
+        <div class="icon" data-name="Attach" title="Attach">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Attach"></i>
+            </span>
+            <br>
+            <span class='label'>Attach</span>
+        </div>
+        <div class="icon" data-name="Autocorrect" title="Autocorrect">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Autocorrect"></i>
+            </span>
+            <br>
+            <span class='label'>Autocorrect</span>
+        </div>
+        <div class="icon" data-name="Background-Effect" title="Background-Effect">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Background-Effect"></i>
+            </span>
+            <br>
+            <span class='label'>Background-Effect</span>
+        </div>
+        <div class="icon" data-name="Backspace" title="Backspace">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Backspace"></i>
+            </span>
+            <br>
+            <span class='label'>Backspace</span>
+        </div>
+        <div class="icon" data-name="Badge" title="Badge">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Badge"></i>
+            </span>
+            <br>
+            <span class='label'>Badge</span>
+        </div>
+        <div class="icon" data-name="Battery-0" title="Battery-0">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Battery-0"></i>
+            </span>
+            <br>
+            <span class='label'>Battery-0</span>
+        </div>
+        <div class="icon" data-name="Battery-1" title="Battery-1">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Battery-1"></i>
+            </span>
+            <br>
+            <span class='label'>Battery-1</span>
+        </div>
+        <div class="icon" data-name="Battery-2" title="Battery-2">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Battery-2"></i>
+            </span>
+            <br>
+            <span class='label'>Battery-2</span>
+        </div>
+        <div class="icon" data-name="Battery-3" title="Battery-3">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Battery-3"></i>
+            </span>
+            <br>
+            <span class='label'>Battery-3</span>
+        </div>
+        <div class="icon" data-name="Battery-4" title="Battery-4">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Battery-4"></i>
+            </span>
+            <br>
+            <span class='label'>Battery-4</span>
+        </div>
+        <div class="icon" data-name="Battery-5" title="Battery-5">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Battery-5"></i>
+            </span>
+            <br>
+            <span class='label'>Battery-5</span>
+        </div>
+        <div class="icon" data-name="Battery-6" title="Battery-6">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Battery-6"></i>
+            </span>
+            <br>
+            <span class='label'>Battery-6</span>
+        </div>
+        <div class="icon" data-name="Battery-7" title="Battery-7">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Battery-7"></i>
+            </span>
+            <br>
+            <span class='label'>Battery-7</span>
+        </div>
+        <div class="icon" data-name="Battery-8" title="Battery-8">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Battery-8"></i>
+            </span>
+            <br>
+            <span class='label'>Battery-8</span>
+        </div>
+        <div class="icon" data-name="Battery-9" title="Battery-9">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Battery-9"></i>
+            </span>
+            <br>
+            <span class='label'>Battery-9</span>
+        </div>
+        <div class="icon" data-name="Battery-Charge" title="Battery-Charge">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Battery-Charge"></i>
+            </span>
+            <br>
+            <span class='label'>Battery-Charge</span>
+        </div>
+        <div class="icon" data-name="Battery-Full" title="Battery-Full">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Battery-Full"></i>
+            </span>
+            <br>
+            <span class='label'>Battery-Full</span>
+        </div>
+        <div class="icon" data-name="Battery-Saver" title="Battery-Saver">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Battery-Saver"></i>
+            </span>
+            <br>
+            <span class='label'>Battery-Saver</span>
+        </div>
+        <div class="icon" data-name="Battery-Warning-Outlined" title="Battery-Warning-Outlined">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Battery-Warning-Outlined"></i>
+            </span>
+            <br>
+            <span class='label'>Battery-Warning-Outlined</span>
+        </div>
+        <div class="icon" data-name="Bed" title="Bed">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Bed"></i>
+            </span>
+            <br>
+            <span class='label'>Bed</span>
+        </div>
+        <div class="icon" data-name="Block" title="Block">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Block"></i>
+            </span>
+            <br>
+            <span class='label'>Block</span>
+        </div>
+        <div class="icon" data-name="Bluetooth-Connected" title="Bluetooth-Connected">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Bluetooth-Connected"></i>
+            </span>
+            <br>
+            <span class='label'>Bluetooth-Connected</span>
+        </div>
+        <div class="icon" data-name="Bluetooth-Disabled" title="Bluetooth-Disabled">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Bluetooth-Disabled"></i>
+            </span>
+            <br>
+            <span class='label'>Bluetooth-Disabled</span>
+        </div>
+        <div class="icon" data-name="Bluetooth-Searching" title="Bluetooth-Searching">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Bluetooth-Searching"></i>
+            </span>
+            <br>
+            <span class='label'>Bluetooth-Searching</span>
+        </div>
+        <div class="icon" data-name="Bluetooth" title="Bluetooth">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Bluetooth"></i>
+            </span>
+            <br>
+            <span class='label'>Bluetooth</span>
+        </div>
+        <div class="icon" data-name="Board" title="Board">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Board"></i>
+            </span>
+            <br>
+            <span class='label'>Board</span>
+        </div>
+        <div class="icon" data-name="Book-Formula-Compatibility" title="Book-Formula-Compatibility">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Book-Formula-Compatibility"></i>
+            </span>
+            <br>
+            <span class='label'>Book-Formula-Compatibility</span>
+        </div>
+        <div class="icon" data-name="Book-Formula-Database" title="Book-Formula-Database">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Book-Formula-Database"></i>
+            </span>
+            <br>
+            <span class='label'>Book-Formula-Database</span>
+        </div>
+        <div class="icon" data-name="Book-Formula-Date" title="Book-Formula-Date">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Book-Formula-Date"></i>
+            </span>
+            <br>
+            <span class='label'>Book-Formula-Date</span>
+        </div>
+        <div class="icon" data-name="Book-Formula-Engineering" title="Book-Formula-Engineering">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Book-Formula-Engineering"></i>
+            </span>
+            <br>
+            <span class='label'>Book-Formula-Engineering</span>
+        </div>
+        <div class="icon" data-name="Book-Formula-Financial" title="Book-Formula-Financial">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Book-Formula-Financial"></i>
+            </span>
+            <br>
+            <span class='label'>Book-Formula-Financial</span>
+        </div>
+        <div class="icon" data-name="Book-Formula-Information" title="Book-Formula-Information">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Book-Formula-Information"></i>
+            </span>
+            <br>
+            <span class='label'>Book-Formula-Information</span>
+        </div>
+        <div class="icon" data-name="Book-Formula-Logical" title="Book-Formula-Logical">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Book-Formula-Logical"></i>
+            </span>
+            <br>
+            <span class='label'>Book-Formula-Logical</span>
+        </div>
+        <div class="icon" data-name="Book-Formula-Lookup" title="Book-Formula-Lookup">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Book-Formula-Lookup"></i>
+            </span>
+            <br>
+            <span class='label'>Book-Formula-Lookup</span>
+        </div>
+        <div class="icon" data-name="Book-Formula-Math" title="Book-Formula-Math">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Book-Formula-Math"></i>
+            </span>
+            <br>
+            <span class='label'>Book-Formula-Math</span>
+        </div>
+        <div class="icon" data-name="Book-Formula-Recent" title="Book-Formula-Recent">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Book-Formula-Recent"></i>
+            </span>
+            <br>
+            <span class='label'>Book-Formula-Recent</span>
+        </div>
+        <div class="icon" data-name="Book-Formula-Statistics" title="Book-Formula-Statistics">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Book-Formula-Statistics"></i>
+            </span>
+            <br>
+            <span class='label'>Book-Formula-Statistics</span>
+        </div>
+        <div class="icon" data-name="Book-Formula-Text" title="Book-Formula-Text">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Book-Formula-Text"></i>
+            </span>
+            <br>
+            <span class='label'>Book-Formula-Text</span>
+        </div>
+        <div class="icon" data-name="Bookmark" title="Bookmark">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Bookmark"></i>
+            </span>
+            <br>
+            <span class='label'>Bookmark</span>
+        </div>
+        <div class="icon" data-name="Bot-Add" title="Bot-Add">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Bot-Add"></i>
+            </span>
+            <br>
+            <span class='label'>Bot-Add</span>
+        </div>
+        <div class="icon" data-name="Bot" title="Bot">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Bot"></i>
+            </span>
+            <br>
+            <span class='label'>Bot</span>
+        </div>
+        <div class="icon" data-name="Branch" title="Branch">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Branch"></i>
+            </span>
+            <br>
+            <span class='label'>Branch</span>
+        </div>
+        <div class="icon" data-name="Briefcase" title="Briefcase">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Briefcase"></i>
+            </span>
+            <br>
+            <span class='label'>Briefcase</span>
+        </div>
+        <div class="icon" data-name="Broad-Activity-Feed" title="Broad-Activity-Feed">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Broad-Activity-Feed"></i>
+            </span>
+            <br>
+            <span class='label'>Broad-Activity-Feed</span>
+        </div>
+        <div class="icon" data-name="Bug-Report" title="Bug-Report">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Bug-Report"></i>
+            </span>
+            <br>
+            <span class='label'>Bug-Report</span>
+        </div>
+        <div class="icon" data-name="Building" title="Building">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Building"></i>
+            </span>
+            <br>
+            <span class='label'>Building</span>
+        </div>
+        <div class="icon" data-name="Calendar-3-Day" title="Calendar-3-Day">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Calendar-3-Day"></i>
+            </span>
+            <br>
+            <span class='label'>Calendar-3-Day</span>
+        </div>
+        <div class="icon" data-name="Calendar-Add" title="Calendar-Add">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Calendar-Add"></i>
+            </span>
+            <br>
+            <span class='label'>Calendar-Add</span>
+        </div>
+        <div class="icon" data-name="Calendar-Agenda" title="Calendar-Agenda">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Calendar-Agenda"></i>
+            </span>
+            <br>
+            <span class='label'>Calendar-Agenda</span>
+        </div>
+        <div class="icon" data-name="Calendar-Availability" title="Calendar-Availability">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Calendar-Availability"></i>
+            </span>
+            <br>
+            <span class='label'>Calendar-Availability</span>
+        </div>
+        <div class="icon" data-name="Calendar-Cancel" title="Calendar-Cancel">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Calendar-Cancel"></i>
+            </span>
+            <br>
+            <span class='label'>Calendar-Cancel</span>
+        </div>
+        <div class="icon" data-name="Calendar-Date" title="Calendar-Date">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Calendar-Date"></i>
+            </span>
+            <br>
+            <span class='label'>Calendar-Date</span>
+        </div>
+        <div class="icon" data-name="Calendar-Day" title="Calendar-Day">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Calendar-Day"></i>
+            </span>
+            <br>
+            <span class='label'>Calendar-Day</span>
+        </div>
+        <div class="icon" data-name="Calendar-Empty" title="Calendar-Empty">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Calendar-Empty"></i>
+            </span>
+            <br>
+            <span class='label'>Calendar-Empty</span>
+        </div>
+        <div class="icon" data-name="Calendar-Month" title="Calendar-Month">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Calendar-Month"></i>
+            </span>
+            <br>
+            <span class='label'>Calendar-Month</span>
+        </div>
+        <div class="icon" data-name="Calendar-Recurring" title="Calendar-Recurring">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Calendar-Recurring"></i>
+            </span>
+            <br>
+            <span class='label'>Calendar-Recurring</span>
+        </div>
+        <div class="icon" data-name="Calendar-Starred" title="Calendar-Starred">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Calendar-Starred"></i>
+            </span>
+            <br>
+            <span class='label'>Calendar-Starred</span>
+        </div>
+        <div class="icon" data-name="Calendar-Week-Numbers" title="Calendar-Week-Numbers">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Calendar-Week-Numbers"></i>
+            </span>
+            <br>
+            <span class='label'>Calendar-Week-Numbers</span>
+        </div>
+        <div class="icon" data-name="Calendar-Week-Start" title="Calendar-Week-Start">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Calendar-Week-Start"></i>
+            </span>
+            <br>
+            <span class='label'>Calendar-Week-Start</span>
+        </div>
+        <div class="icon" data-name="Calendar" title="Calendar">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Calendar"></i>
+            </span>
+            <br>
+            <span class='label'>Calendar</span>
+        </div>
+        <div class="icon" data-name="Call-Add" title="Call-Add">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Call-Add"></i>
+            </span>
+            <br>
+            <span class='label'>Call-Add</span>
+        </div>
+        <div class="icon" data-name="Call-End" title="Call-End">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Call-End"></i>
+            </span>
+            <br>
+            <span class='label'>Call-End</span>
+        </div>
+        <div class="icon" data-name="Call-Forward" title="Call-Forward">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Call-Forward"></i>
+            </span>
+            <br>
+            <span class='label'>Call-Forward</span>
+        </div>
+        <div class="icon" data-name="Call-Inbound" title="Call-Inbound">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Call-Inbound"></i>
+            </span>
+            <br>
+            <span class='label'>Call-Inbound</span>
+        </div>
+        <div class="icon" data-name="Call-Missed" title="Call-Missed">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Call-Missed"></i>
+            </span>
+            <br>
+            <span class='label'>Call-Missed</span>
+        </div>
+        <div class="icon" data-name="Call-Outbound" title="Call-Outbound">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Call-Outbound"></i>
+            </span>
+            <br>
+            <span class='label'>Call-Outbound</span>
+        </div>
+        <div class="icon" data-name="Call-Park" title="Call-Park">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Call-Park"></i>
+            </span>
+            <br>
+            <span class='label'>Call-Park</span>
+        </div>
+        <div class="icon" data-name="Camera-Add" title="Camera-Add">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Camera-Add"></i>
+            </span>
+            <br>
+            <span class='label'>Camera-Add</span>
+        </div>
+        <div class="icon" data-name="Camera-Switch" title="Camera-Switch">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Camera-Switch"></i>
+            </span>
+            <br>
+            <span class='label'>Camera-Switch</span>
+        </div>
+        <div class="icon" data-name="Camera" title="Camera">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Camera"></i>
+            </span>
+            <br>
+            <span class='label'>Camera</span>
+        </div>
+        <div class="icon" data-name="Cast" title="Cast">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Cast"></i>
+            </span>
+            <br>
+            <span class='label'>Cast</span>
+        </div>
+        <div class="icon" data-name="Cellular-3G" title="Cellular-3G">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Cellular-3G"></i>
+            </span>
+            <br>
+            <span class='label'>Cellular-3G</span>
+        </div>
+        <div class="icon" data-name="Cellular-4G" title="Cellular-4G">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Cellular-4G"></i>
+            </span>
+            <br>
+            <span class='label'>Cellular-4G</span>
+        </div>
+        <div class="icon" data-name="Cellular-Data-1" title="Cellular-Data-1">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Cellular-Data-1"></i>
+            </span>
+            <br>
+            <span class='label'>Cellular-Data-1</span>
+        </div>
+        <div class="icon" data-name="Cellular-Data-2" title="Cellular-Data-2">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Cellular-Data-2"></i>
+            </span>
+            <br>
+            <span class='label'>Cellular-Data-2</span>
+        </div>
+        <div class="icon" data-name="Cellular-Data-3" title="Cellular-Data-3">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Cellular-Data-3"></i>
+            </span>
+            <br>
+            <span class='label'>Cellular-Data-3</span>
+        </div>
+        <div class="icon" data-name="Cellular-Data-4" title="Cellular-Data-4">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Cellular-Data-4"></i>
+            </span>
+            <br>
+            <span class='label'>Cellular-Data-4</span>
+        </div>
+        <div class="icon" data-name="Cellular-Data-5" title="Cellular-Data-5">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Cellular-Data-5"></i>
+            </span>
+            <br>
+            <span class='label'>Cellular-Data-5</span>
+        </div>
+        <div class="icon" data-name="Cellular-Off" title="Cellular-Off">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Cellular-Off"></i>
+            </span>
+            <br>
+            <span class='label'>Cellular-Off</span>
+        </div>
+        <div class="icon" data-name="Cellular-Unavailable" title="Cellular-Unavailable">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Cellular-Unavailable"></i>
+            </span>
+            <br>
+            <span class='label'>Cellular-Unavailable</span>
+        </div>
+        <div class="icon" data-name="Certificate" title="Certificate">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Certificate"></i>
+            </span>
+            <br>
+            <span class='label'>Certificate</span>
+        </div>
+        <div class="icon" data-name="Channel-Follow" title="Channel-Follow">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Channel-Follow"></i>
+            </span>
+            <br>
+            <span class='label'>Channel-Follow</span>
+        </div>
+        <div class="icon" data-name="Channel-Notifications" title="Channel-Notifications">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Channel-Notifications"></i>
+            </span>
+            <br>
+            <span class='label'>Channel-Notifications</span>
+        </div>
+        <div class="icon" data-name="Channel-Unfollow" title="Channel-Unfollow">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Channel-Unfollow"></i>
+            </span>
+            <br>
+            <span class='label'>Channel-Unfollow</span>
+        </div>
+        <div class="icon" data-name="Channel" title="Channel">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Channel"></i>
+            </span>
+            <br>
+            <span class='label'>Channel</span>
+        </div>
+        <div class="icon" data-name="Chat-Help" title="Chat-Help">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Chat-Help"></i>
+            </span>
+            <br>
+            <span class='label'>Chat-Help</span>
+        </div>
+        <div class="icon" data-name="Chat" title="Chat">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Chat"></i>
+            </span>
+            <br>
+            <span class='label'>Chat</span>
+        </div>
+        <div class="icon" data-name="Checkbox-Checked" title="Checkbox-Checked">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Checkbox-Checked"></i>
+            </span>
+            <br>
+            <span class='label'>Checkbox-Checked</span>
+        </div>
+        <div class="icon" data-name="Checkbox-Unchecked" title="Checkbox-Unchecked">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Checkbox-Unchecked"></i>
+            </span>
+            <br>
+            <span class='label'>Checkbox-Unchecked</span>
+        </div>
+        <div class="icon" data-name="Checkmark-Circle" title="Checkmark-Circle">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Checkmark-Circle"></i>
+            </span>
+            <br>
+            <span class='label'>Checkmark-Circle</span>
+        </div>
+        <div class="icon" data-name="Checkmark-Square" title="Checkmark-Square">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Checkmark-Square"></i>
+            </span>
+            <br>
+            <span class='label'>Checkmark-Square</span>
+        </div>
+        <div class="icon" data-name="Checkmark" title="Checkmark">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Checkmark"></i>
+            </span>
+            <br>
+            <span class='label'>Checkmark</span>
+        </div>
+        <div class="icon" data-name="Chevron-Down-Circle" title="Chevron-Down-Circle">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Chevron-Down-Circle"></i>
+            </span>
+            <br>
+            <span class='label'>Chevron-Down-Circle</span>
+        </div>
+        <div class="icon" data-name="Chevron-Down" title="Chevron-Down">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Chevron-Down"></i>
+            </span>
+            <br>
+            <span class='label'>Chevron-Down</span>
+        </div>
+        <div class="icon" data-name="Chevron-Left" title="Chevron-Left">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Chevron-Left"></i>
+            </span>
+            <br>
+            <span class='label'>Chevron-Left</span>
+        </div>
+        <div class="icon" data-name="Chevron-Right" title="Chevron-Right">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Chevron-Right"></i>
+            </span>
+            <br>
+            <span class='label'>Chevron-Right</span>
+        </div>
+        <div class="icon" data-name="Chevron-Up" title="Chevron-Up">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Chevron-Up"></i>
+            </span>
+            <br>
+            <span class='label'>Chevron-Up</span>
+        </div>
+        <div class="icon" data-name="Class" title="Class">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Class"></i>
+            </span>
+            <br>
+            <span class='label'>Class</span>
+        </div>
+        <div class="icon" data-name="Classification" title="Classification">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Classification"></i>
+            </span>
+            <br>
+            <span class='label'>Classification</span>
+        </div>
+        <div class="icon" data-name="Clear-Formatting" title="Clear-Formatting">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Clear-Formatting"></i>
+            </span>
+            <br>
+            <span class='label'>Clear-Formatting</span>
+        </div>
+        <div class="icon" data-name="Clipboard-Paste" title="Clipboard-Paste">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Clipboard-Paste"></i>
+            </span>
+            <br>
+            <span class='label'>Clipboard-Paste</span>
+        </div>
+        <div class="icon" data-name="Clipboard-Text" title="Clipboard-Text">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Clipboard-Text"></i>
+            </span>
+            <br>
+            <span class='label'>Clipboard-Text</span>
+        </div>
+        <div class="icon" data-name="Clipboard" title="Clipboard">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Clipboard"></i>
+            </span>
+            <br>
+            <span class='label'>Clipboard</span>
+        </div>
+        <div class="icon" data-name="Clock" title="Clock">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Clock"></i>
+            </span>
+            <br>
+            <span class='label'>Clock</span>
+        </div>
+        <div class="icon" data-name="Closed-Caption" title="Closed-Caption">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Closed-Caption"></i>
+            </span>
+            <br>
+            <span class='label'>Closed-Caption</span>
+        </div>
+        <div class="icon" data-name="Cloud-Backup" title="Cloud-Backup">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Cloud-Backup"></i>
+            </span>
+            <br>
+            <span class='label'>Cloud-Backup</span>
+        </div>
+        <div class="icon" data-name="Cloud-Download" title="Cloud-Download">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Cloud-Download"></i>
+            </span>
+            <br>
+            <span class='label'>Cloud-Download</span>
+        </div>
+        <div class="icon" data-name="Cloud-Off" title="Cloud-Off">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Cloud-Off"></i>
+            </span>
+            <br>
+            <span class='label'>Cloud-Off</span>
+        </div>
+        <div class="icon" data-name="Cloud-Offline" title="Cloud-Offline">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Cloud-Offline"></i>
+            </span>
+            <br>
+            <span class='label'>Cloud-Offline</span>
+        </div>
+        <div class="icon" data-name="Cloud-Sync-Complete" title="Cloud-Sync-Complete">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Cloud-Sync-Complete"></i>
+            </span>
+            <br>
+            <span class='label'>Cloud-Sync-Complete</span>
+        </div>
+        <div class="icon" data-name="Cloud" title="Cloud">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Cloud"></i>
+            </span>
+            <br>
+            <span class='label'>Cloud</span>
+        </div>
+        <div class="icon" data-name="Code" title="Code">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Code"></i>
+            </span>
+            <br>
+            <span class='label'>Code</span>
+        </div>
+        <div class="icon" data-name="Collections" title="Collections">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Collections"></i>
+            </span>
+            <br>
+            <span class='label'>Collections</span>
+        </div>
+        <div class="icon" data-name="Color" title="Color">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Color"></i>
+            </span>
+            <br>
+            <span class='label'>Color</span>
+        </div>
+        <div class="icon" data-name="Comment-Add" title="Comment-Add">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Comment-Add"></i>
+            </span>
+            <br>
+            <span class='label'>Comment-Add</span>
+        </div>
+        <div class="icon" data-name="Comment-Delete" title="Comment-Delete">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Comment-Delete"></i>
+            </span>
+            <br>
+            <span class='label'>Comment-Delete</span>
+        </div>
+        <div class="icon" data-name="Comment-Next" title="Comment-Next">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Comment-Next"></i>
+            </span>
+            <br>
+            <span class='label'>Comment-Next</span>
+        </div>
+        <div class="icon" data-name="Comment-Previous" title="Comment-Previous">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Comment-Previous"></i>
+            </span>
+            <br>
+            <span class='label'>Comment-Previous</span>
+        </div>
+        <div class="icon" data-name="Comment-Resolve" title="Comment-Resolve">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Comment-Resolve"></i>
+            </span>
+            <br>
+            <span class='label'>Comment-Resolve</span>
+        </div>
+        <div class="icon" data-name="Comment" title="Comment">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Comment"></i>
+            </span>
+            <br>
+            <span class='label'>Comment</span>
+        </div>
+        <div class="icon" data-name="Compose" title="Compose">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Compose"></i>
+            </span>
+            <br>
+            <span class='label'>Compose</span>
+        </div>
+        <div class="icon" data-name="Conference-Room" title="Conference-Room">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Conference-Room"></i>
+            </span>
+            <br>
+            <span class='label'>Conference-Room</span>
+        </div>
+        <div class="icon" data-name="Connector" title="Connector">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Connector"></i>
+            </span>
+            <br>
+            <span class='label'>Connector</span>
+        </div>
+        <div class="icon" data-name="Contact-Card-Group" title="Contact-Card-Group">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Contact-Card-Group"></i>
+            </span>
+            <br>
+            <span class='label'>Contact-Card-Group</span>
+        </div>
+        <div class="icon" data-name="Contact-Card" title="Contact-Card">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Contact-Card"></i>
+            </span>
+            <br>
+            <span class='label'>Contact-Card</span>
+        </div>
+        <div class="icon" data-name="Contacts" title="Contacts">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Contacts"></i>
+            </span>
+            <br>
+            <span class='label'>Contacts</span>
+        </div>
+        <div class="icon" data-name="Convert-To-Table" title="Convert-To-Table">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Convert-To-Table"></i>
+            </span>
+            <br>
+            <span class='label'>Convert-To-Table</span>
+        </div>
+        <div class="icon" data-name="Convert-To-Text" title="Convert-To-Text">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Convert-To-Text"></i>
+            </span>
+            <br>
+            <span class='label'>Convert-To-Text</span>
+        </div>
+        <div class="icon" data-name="Cookies" title="Cookies">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Cookies"></i>
+            </span>
+            <br>
+            <span class='label'>Cookies</span>
+        </div>
+        <div class="icon" data-name="Copy-Image" title="Copy-Image">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Copy-Image"></i>
+            </span>
+            <br>
+            <span class='label'>Copy-Image</span>
+        </div>
+        <div class="icon" data-name="Copy-Link" title="Copy-Link">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Copy-Link"></i>
+            </span>
+            <br>
+            <span class='label'>Copy-Link</span>
+        </div>
+        <div class="icon" data-name="Copy-Move" title="Copy-Move">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Copy-Move"></i>
+            </span>
+            <br>
+            <span class='label'>Copy-Move</span>
+        </div>
+        <div class="icon" data-name="Copy" title="Copy">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Copy"></i>
+            </span>
+            <br>
+            <span class='label'>Copy</span>
+        </div>
+        <div class="icon" data-name="Crop-Interim-Off" title="Crop-Interim-Off">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Crop-Interim-Off"></i>
+            </span>
+            <br>
+            <span class='label'>Crop-Interim-Off</span>
+        </div>
+        <div class="icon" data-name="Crop-Interim" title="Crop-Interim">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Crop-Interim"></i>
+            </span>
+            <br>
+            <span class='label'>Crop-Interim</span>
+        </div>
+        <div class="icon" data-name="Crop" title="Crop">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Crop"></i>
+            </span>
+            <br>
+            <span class='label'>Crop</span>
+        </div>
+        <div class="icon" data-name="Currency" title="Currency">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Currency"></i>
+            </span>
+            <br>
+            <span class='label'>Currency</span>
+        </div>
+        <div class="icon" data-name="Dark-Theme" title="Dark-Theme">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Dark-Theme"></i>
+            </span>
+            <br>
+            <span class='label'>Dark-Theme</span>
+        </div>
+        <div class="icon" data-name="Data-Area" title="Data-Area">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Data-Area"></i>
+            </span>
+            <br>
+            <span class='label'>Data-Area</span>
+        </div>
+        <div class="icon" data-name="Data-Bar-Horizontal" title="Data-Bar-Horizontal">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Data-Bar-Horizontal"></i>
+            </span>
+            <br>
+            <span class='label'>Data-Bar-Horizontal</span>
+        </div>
+        <div class="icon" data-name="Data-Bar-Vertical" title="Data-Bar-Vertical">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Data-Bar-Vertical"></i>
+            </span>
+            <br>
+            <span class='label'>Data-Bar-Vertical</span>
+        </div>
+        <div class="icon" data-name="Data-Funnel" title="Data-Funnel">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Data-Funnel"></i>
+            </span>
+            <br>
+            <span class='label'>Data-Funnel</span>
+        </div>
+        <div class="icon" data-name="Data-Histogram" title="Data-Histogram">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Data-Histogram"></i>
+            </span>
+            <br>
+            <span class='label'>Data-Histogram</span>
+        </div>
+        <div class="icon" data-name="Data-Line" title="Data-Line">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Data-Line"></i>
+            </span>
+            <br>
+            <span class='label'>Data-Line</span>
+        </div>
+        <div class="icon" data-name="Data-Pie" title="Data-Pie">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Data-Pie"></i>
+            </span>
+            <br>
+            <span class='label'>Data-Pie</span>
+        </div>
+        <div class="icon" data-name="Data-Scatter" title="Data-Scatter">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Data-Scatter"></i>
+            </span>
+            <br>
+            <span class='label'>Data-Scatter</span>
+        </div>
+        <div class="icon" data-name="Data-Sunburst" title="Data-Sunburst">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Data-Sunburst"></i>
+            </span>
+            <br>
+            <span class='label'>Data-Sunburst</span>
+        </div>
+        <div class="icon" data-name="Data-Treemap" title="Data-Treemap">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Data-Treemap"></i>
+            </span>
+            <br>
+            <span class='label'>Data-Treemap</span>
+        </div>
+        <div class="icon" data-name="Data-Usage" title="Data-Usage">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Data-Usage"></i>
+            </span>
+            <br>
+            <span class='label'>Data-Usage</span>
+        </div>
+        <div class="icon" data-name="Data-Waterfall" title="Data-Waterfall">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Data-Waterfall"></i>
+            </span>
+            <br>
+            <span class='label'>Data-Waterfall</span>
+        </div>
+        <div class="icon" data-name="Data-Whisker" title="Data-Whisker">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Data-Whisker"></i>
+            </span>
+            <br>
+            <span class='label'>Data-Whisker</span>
+        </div>
+        <div class="icon" data-name="Delete-Forever" title="Delete-Forever">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Delete-Forever"></i>
+            </span>
+            <br>
+            <span class='label'>Delete-Forever</span>
+        </div>
+        <div class="icon" data-name="Delete-Off" title="Delete-Off">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Delete-Off"></i>
+            </span>
+            <br>
+            <span class='label'>Delete-Off</span>
+        </div>
+        <div class="icon" data-name="Delete" title="Delete">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Delete"></i>
+            </span>
+            <br>
+            <span class='label'>Delete</span>
+        </div>
+        <div class="icon" data-name="Desktop" title="Desktop">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Desktop"></i>
+            </span>
+            <br>
+            <span class='label'>Desktop</span>
+        </div>
+        <div class="icon" data-name="Developer-Board" title="Developer-Board">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Developer-Board"></i>
+            </span>
+            <br>
+            <span class='label'>Developer-Board</span>
+        </div>
+        <div class="icon" data-name="Device-EQ" title="Device-EQ">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Device-EQ"></i>
+            </span>
+            <br>
+            <span class='label'>Device-EQ</span>
+        </div>
+        <div class="icon" data-name="Dialpad-Off" title="Dialpad-Off">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Dialpad-Off"></i>
+            </span>
+            <br>
+            <span class='label'>Dialpad-Off</span>
+        </div>
+        <div class="icon" data-name="Dialpad" title="Dialpad">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Dialpad"></i>
+            </span>
+            <br>
+            <span class='label'>Dialpad</span>
+        </div>
+        <div class="icon" data-name="Directions" title="Directions">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Directions"></i>
+            </span>
+            <br>
+            <span class='label'>Directions</span>
+        </div>
+        <div class="icon" data-name="Dismiss-Circle" title="Dismiss-Circle">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Dismiss-Circle"></i>
+            </span>
+            <br>
+            <span class='label'>Dismiss-Circle</span>
+        </div>
+        <div class="icon" data-name="Dismiss" title="Dismiss">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Dismiss"></i>
+            </span>
+            <br>
+            <span class='label'>Dismiss</span>
+        </div>
+        <div class="icon" data-name="Divider-Short" title="Divider-Short">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Divider-Short"></i>
+            </span>
+            <br>
+            <span class='label'>Divider-Short</span>
+        </div>
+        <div class="icon" data-name="Divider-Tall" title="Divider-Tall">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Divider-Tall"></i>
+            </span>
+            <br>
+            <span class='label'>Divider-Tall</span>
+        </div>
+        <div class="icon" data-name="Dock-Left" title="Dock-Left">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Dock-Left"></i>
+            </span>
+            <br>
+            <span class='label'>Dock-Left</span>
+        </div>
+        <div class="icon" data-name="Dock-Row" title="Dock-Row">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Dock-Row"></i>
+            </span>
+            <br>
+            <span class='label'>Dock-Row</span>
+        </div>
+        <div class="icon" data-name="Dock" title="Dock">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Dock"></i>
+            </span>
+            <br>
+            <span class='label'>Dock</span>
+        </div>
+        <div class="icon" data-name="Document-Autosave" title="Document-Autosave">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Document-Autosave"></i>
+            </span>
+            <br>
+            <span class='label'>Document-Autosave</span>
+        </div>
+        <div class="icon" data-name="Document-Catch-Up" title="Document-Catch-Up">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Document-Catch-Up"></i>
+            </span>
+            <br>
+            <span class='label'>Document-Catch-Up</span>
+        </div>
+        <div class="icon" data-name="Document-Copy" title="Document-Copy">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Document-Copy"></i>
+            </span>
+            <br>
+            <span class='label'>Document-Copy</span>
+        </div>
+        <div class="icon" data-name="Document-Discard" title="Document-Discard">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Document-Discard"></i>
+            </span>
+            <br>
+            <span class='label'>Document-Discard</span>
+        </div>
+        <div class="icon" data-name="Document-PDF" title="Document-PDF">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Document-PDF"></i>
+            </span>
+            <br>
+            <span class='label'>Document-PDF</span>
+        </div>
+        <div class="icon" data-name="Document-Search" title="Document-Search">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Document-Search"></i>
+            </span>
+            <br>
+            <span class='label'>Document-Search</span>
+        </div>
+        <div class="icon" data-name="Document" title="Document">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Document"></i>
+            </span>
+            <br>
+            <span class='label'>Document</span>
+        </div>
+        <div class="icon" data-name="Double-Swipe-Down" title="Double-Swipe-Down">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Double-Swipe-Down"></i>
+            </span>
+            <br>
+            <span class='label'>Double-Swipe-Down</span>
+        </div>
+        <div class="icon" data-name="Double-Swipe-Up" title="Double-Swipe-Up">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Double-Swipe-Up"></i>
+            </span>
+            <br>
+            <span class='label'>Double-Swipe-Up</span>
+        </div>
+        <div class="icon" data-name="Double-Tap-Swipe-Down" title="Double-Tap-Swipe-Down">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Double-Tap-Swipe-Down"></i>
+            </span>
+            <br>
+            <span class='label'>Double-Tap-Swipe-Down</span>
+        </div>
+        <div class="icon" data-name="Double-Tap-Swipe-Up" title="Double-Tap-Swipe-Up">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Double-Tap-Swipe-Up"></i>
+            </span>
+            <br>
+            <span class='label'>Double-Tap-Swipe-Up</span>
+        </div>
+        <div class="icon" data-name="Drafts" title="Drafts">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Drafts"></i>
+            </span>
+            <br>
+            <span class='label'>Drafts</span>
+        </div>
+        <div class="icon" data-name="Drag" title="Drag">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Drag"></i>
+            </span>
+            <br>
+            <span class='label'>Drag</span>
+        </div>
+        <div class="icon" data-name="Drink" title="Drink">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Drink"></i>
+            </span>
+            <br>
+            <span class='label'>Drink</span>
+        </div>
+        <div class="icon" data-name="Drive-Mode" title="Drive-Mode">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Drive-Mode"></i>
+            </span>
+            <br>
+            <span class='label'>Drive-Mode</span>
+        </div>
+        <div class="icon" data-name="Edit" title="Edit">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Edit"></i>
+            </span>
+            <br>
+            <span class='label'>Edit</span>
+        </div>
+        <div class="icon" data-name="Emoji-Add" title="Emoji-Add">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Emoji-Add"></i>
+            </span>
+            <br>
+            <span class='label'>Emoji-Add</span>
+        </div>
+        <div class="icon" data-name="Emoji-Angry" title="Emoji-Angry">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Emoji-Angry"></i>
+            </span>
+            <br>
+            <span class='label'>Emoji-Angry</span>
+        </div>
+        <div class="icon" data-name="Emoji-Sad" title="Emoji-Sad">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Emoji-Sad"></i>
+            </span>
+            <br>
+            <span class='label'>Emoji-Sad</span>
+        </div>
+        <div class="icon" data-name="Emoji-Surprise" title="Emoji-Surprise">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Emoji-Surprise"></i>
+            </span>
+            <br>
+            <span class='label'>Emoji-Surprise</span>
+        </div>
+        <div class="icon" data-name="Emoji" title="Emoji">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Emoji"></i>
+            </span>
+            <br>
+            <span class='label'>Emoji</span>
+        </div>
+        <div class="icon" data-name="Erase" title="Erase">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Erase"></i>
+            </span>
+            <br>
+            <span class='label'>Erase</span>
+        </div>
+        <div class="icon" data-name="Eraser-Tool" title="Eraser-Tool">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Eraser-Tool"></i>
+            </span>
+            <br>
+            <span class='label'>Eraser-Tool</span>
+        </div>
+        <div class="icon" data-name="Error-Circle" title="Error-Circle">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Error-Circle"></i>
+            </span>
+            <br>
+            <span class='label'>Error-Circle</span>
+        </div>
+        <div class="icon" data-name="Extended-Dock" title="Extended-Dock">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Extended-Dock"></i>
+            </span>
+            <br>
+            <span class='label'>Extended-Dock</span>
+        </div>
+        <div class="icon" data-name="Extension" title="Extension">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Extension"></i>
+            </span>
+            <br>
+            <span class='label'>Extension</span>
+        </div>
+        <div class="icon" data-name="Eye-Hide" title="Eye-Hide">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Eye-Hide"></i>
+            </span>
+            <br>
+            <span class='label'>Eye-Hide</span>
+        </div>
+        <div class="icon" data-name="Eye-Show" title="Eye-Show">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Eye-Show"></i>
+            </span>
+            <br>
+            <span class='label'>Eye-Show</span>
+        </div>
+        <div class="icon" data-name="FPS-240" title="FPS-240">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-FPS-240"></i>
+            </span>
+            <br>
+            <span class='label'>FPS-240</span>
+        </div>
+        <div class="icon" data-name="FPS-960" title="FPS-960">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-FPS-960"></i>
+            </span>
+            <br>
+            <span class='label'>FPS-960</span>
+        </div>
+        <div class="icon" data-name="Fast-Acceleration" title="Fast-Acceleration">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Fast-Acceleration"></i>
+            </span>
+            <br>
+            <span class='label'>Fast-Acceleration</span>
+        </div>
+        <div class="icon" data-name="Fast-Forward" title="Fast-Forward">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Fast-Forward"></i>
+            </span>
+            <br>
+            <span class='label'>Fast-Forward</span>
+        </div>
+        <div class="icon" data-name="Fast-Mode" title="Fast-Mode">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Fast-Mode"></i>
+            </span>
+            <br>
+            <span class='label'>Fast-Mode</span>
+        </div>
+        <div class="icon" data-name="Filter" title="Filter">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Filter"></i>
+            </span>
+            <br>
+            <span class='label'>Filter</span>
+        </div>
+        <div class="icon" data-name="Fingerprint" title="Fingerprint">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Fingerprint"></i>
+            </span>
+            <br>
+            <span class='label'>Fingerprint</span>
+        </div>
+        <div class="icon" data-name="Fit-Width" title="Fit-Width">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Fit-Width"></i>
+            </span>
+            <br>
+            <span class='label'>Fit-Width</span>
+        </div>
+        <div class="icon" data-name="Flag-Off" title="Flag-Off">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Flag-Off"></i>
+            </span>
+            <br>
+            <span class='label'>Flag-Off</span>
+        </div>
+        <div class="icon" data-name="Flag" title="Flag">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Flag"></i>
+            </span>
+            <br>
+            <span class='label'>Flag</span>
+        </div>
+        <div class="icon" data-name="Flash-Auto" title="Flash-Auto">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Flash-Auto"></i>
+            </span>
+            <br>
+            <span class='label'>Flash-Auto</span>
+        </div>
+        <div class="icon" data-name="Flash-Off" title="Flash-Off">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Flash-Off"></i>
+            </span>
+            <br>
+            <span class='label'>Flash-Off</span>
+        </div>
+        <div class="icon" data-name="Flash-On" title="Flash-On">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Flash-On"></i>
+            </span>
+            <br>
+            <span class='label'>Flash-On</span>
+        </div>
+        <div class="icon" data-name="Flashlight-Off" title="Flashlight-Off">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Flashlight-Off"></i>
+            </span>
+            <br>
+            <span class='label'>Flashlight-Off</span>
+        </div>
+        <div class="icon" data-name="Flashlight" title="Flashlight">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Flashlight"></i>
+            </span>
+            <br>
+            <span class='label'>Flashlight</span>
+        </div>
+        <div class="icon" data-name="Folder-Add" title="Folder-Add">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Folder-Add"></i>
+            </span>
+            <br>
+            <span class='label'>Folder-Add</span>
+        </div>
+        <div class="icon" data-name="Folder-Junk" title="Folder-Junk">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Folder-Junk"></i>
+            </span>
+            <br>
+            <span class='label'>Folder-Junk</span>
+        </div>
+        <div class="icon" data-name="Folder-Link" title="Folder-Link">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Folder-Link"></i>
+            </span>
+            <br>
+            <span class='label'>Folder-Link</span>
+        </div>
+        <div class="icon" data-name="Folder-Move" title="Folder-Move">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Folder-Move"></i>
+            </span>
+            <br>
+            <span class='label'>Folder-Move</span>
+        </div>
+        <div class="icon" data-name="Folder-Open" title="Folder-Open">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Folder-Open"></i>
+            </span>
+            <br>
+            <span class='label'>Folder-Open</span>
+        </div>
+        <div class="icon" data-name="Folder" title="Folder">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Folder"></i>
+            </span>
+            <br>
+            <span class='label'>Folder</span>
+        </div>
+        <div class="icon" data-name="Font-Decrease" title="Font-Decrease">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Font-Decrease"></i>
+            </span>
+            <br>
+            <span class='label'>Font-Decrease</span>
+        </div>
+        <div class="icon" data-name="Font-Increase" title="Font-Increase">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Font-Increase"></i>
+            </span>
+            <br>
+            <span class='label'>Font-Increase</span>
+        </div>
+        <div class="icon" data-name="Font-Space-Tracking-In" title="Font-Space-Tracking-In">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Font-Space-Tracking-In"></i>
+            </span>
+            <br>
+            <span class='label'>Font-Space-Tracking-In</span>
+        </div>
+        <div class="icon" data-name="Font-Space-Tracking-Out" title="Font-Space-Tracking-Out">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Font-Space-Tracking-Out"></i>
+            </span>
+            <br>
+            <span class='label'>Font-Space-Tracking-Out</span>
+        </div>
+        <div class="icon" data-name="Food" title="Food">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Food"></i>
+            </span>
+            <br>
+            <span class='label'>Food</span>
+        </div>
+        <div class="icon" data-name="Full-Screen-Zoom" title="Full-Screen-Zoom">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Full-Screen-Zoom"></i>
+            </span>
+            <br>
+            <span class='label'>Full-Screen-Zoom</span>
+        </div>
+        <div class="icon" data-name="GIF" title="GIF">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-GIF"></i>
+            </span>
+            <br>
+            <span class='label'>GIF</span>
+        </div>
+        <div class="icon" data-name="Games" title="Games">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Games"></i>
+            </span>
+            <br>
+            <span class='label'>Games</span>
+        </div>
+        <div class="icon" data-name="Gesture" title="Gesture">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Gesture"></i>
+            </span>
+            <br>
+            <span class='label'>Gesture</span>
+        </div>
+        <div class="icon" data-name="Gift" title="Gift">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Gift"></i>
+            </span>
+            <br>
+            <span class='label'>Gift</span>
+        </div>
+        <div class="icon" data-name="Glance" title="Glance">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Glance"></i>
+            </span>
+            <br>
+            <span class='label'>Glance</span>
+        </div>
+        <div class="icon" data-name="Globe-Add" title="Globe-Add">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Globe-Add"></i>
+            </span>
+            <br>
+            <span class='label'>Globe-Add</span>
+        </div>
+        <div class="icon" data-name="Globe-Desktop" title="Globe-Desktop">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Globe-Desktop"></i>
+            </span>
+            <br>
+            <span class='label'>Globe-Desktop</span>
+        </div>
+        <div class="icon" data-name="Globe-Location" title="Globe-Location">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Globe-Location"></i>
+            </span>
+            <br>
+            <span class='label'>Globe-Location</span>
+        </div>
+        <div class="icon" data-name="Globe-Video" title="Globe-Video">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Globe-Video"></i>
+            </span>
+            <br>
+            <span class='label'>Globe-Video</span>
+        </div>
+        <div class="icon" data-name="Globe" title="Globe">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Globe"></i>
+            </span>
+            <br>
+            <span class='label'>Globe</span>
+        </div>
+        <div class="icon" data-name="Grid" title="Grid">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Grid"></i>
+            </span>
+            <br>
+            <span class='label'>Grid</span>
+        </div>
+        <div class="icon" data-name="Group-List" title="Group-List">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Group-List"></i>
+            </span>
+            <br>
+            <span class='label'>Group-List</span>
+        </div>
+        <div class="icon" data-name="Guest" title="Guest">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Guest"></i>
+            </span>
+            <br>
+            <span class='label'>Guest</span>
+        </div>
+        <div class="icon" data-name="HDR" title="HDR">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-HDR"></i>
+            </span>
+            <br>
+            <span class='label'>HDR</span>
+        </div>
+        <div class="icon" data-name="Headphones" title="Headphones">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Headphones"></i>
+            </span>
+            <br>
+            <span class='label'>Headphones</span>
+        </div>
+        <div class="icon" data-name="Headset-VR" title="Headset-VR">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Headset-VR"></i>
+            </span>
+            <br>
+            <span class='label'>Headset-VR</span>
+        </div>
+        <div class="icon" data-name="Headset" title="Headset">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Headset"></i>
+            </span>
+            <br>
+            <span class='label'>Headset</span>
+        </div>
+        <div class="icon" data-name="Heart" title="Heart">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Heart"></i>
+            </span>
+            <br>
+            <span class='label'>Heart</span>
+        </div>
+        <div class="icon" data-name="Help-Circle" title="Help-Circle">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Help-Circle"></i>
+            </span>
+            <br>
+            <span class='label'>Help-Circle</span>
+        </div>
+        <div class="icon" data-name="Hide-Slide" title="Hide-Slide">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Hide-Slide"></i>
+            </span>
+            <br>
+            <span class='label'>Hide-Slide</span>
+        </div>
+        <div class="icon" data-name="Highlight" title="Highlight">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Highlight"></i>
+            </span>
+            <br>
+            <span class='label'>Highlight</span>
+        </div>
+        <div class="icon" data-name="History" title="History">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-History"></i>
+            </span>
+            <br>
+            <span class='label'>History</span>
+        </div>
+        <div class="icon" data-name="Home-Add-" title="Home-Add-">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Home-Add-"></i>
+            </span>
+            <br>
+            <span class='label'>Home-Add-</span>
+        </div>
+        <div class="icon" data-name="Home" title="Home">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Home"></i>
+            </span>
+            <br>
+            <span class='label'>Home</span>
+        </div>
+        <div class="icon" data-name="Hub" title="Hub">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Hub"></i>
+            </span>
+            <br>
+            <span class='label'>Hub</span>
+        </div>
+        <div class="icon" data-name="Image-Add" title="Image-Add">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Image-Add"></i>
+            </span>
+            <br>
+            <span class='label'>Image-Add</span>
+        </div>
+        <div class="icon" data-name="Image-Library" title="Image-Library">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Image-Library"></i>
+            </span>
+            <br>
+            <span class='label'>Image-Library</span>
+        </div>
+        <div class="icon" data-name="Image" title="Image">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Image"></i>
+            </span>
+            <br>
+            <span class='label'>Image</span>
+        </div>
+        <div class="icon" data-name="Immersive-Reader" title="Immersive-Reader">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Immersive-Reader"></i>
+            </span>
+            <br>
+            <span class='label'>Immersive-Reader</span>
+        </div>
+        <div class="icon" data-name="Important" title="Important">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Important"></i>
+            </span>
+            <br>
+            <span class='label'>Important</span>
+        </div>
+        <div class="icon" data-name="InPrivate-Account" title="InPrivate-Account">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-InPrivate-Account"></i>
+            </span>
+            <br>
+            <span class='label'>InPrivate-Account</span>
+        </div>
+        <div class="icon" data-name="Incognito" title="Incognito">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Incognito"></i>
+            </span>
+            <br>
+            <span class='label'>Incognito</span>
+        </div>
+        <div class="icon" data-name="Incoming-Video-Off" title="Incoming-Video-Off">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Incoming-Video-Off"></i>
+            </span>
+            <br>
+            <span class='label'>Incoming-Video-Off</span>
+        </div>
+        <div class="icon" data-name="Incoming-Video" title="Incoming-Video">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Incoming-Video"></i>
+            </span>
+            <br>
+            <span class='label'>Incoming-Video</span>
+        </div>
+        <div class="icon" data-name="Info" title="Info">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Info"></i>
+            </span>
+            <br>
+            <span class='label'>Info</span>
+        </div>
+        <div class="icon" data-name="Inking-Tool" title="Inking-Tool">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Inking-Tool"></i>
+            </span>
+            <br>
+            <span class='label'>Inking-Tool</span>
+        </div>
+        <div class="icon" data-name="Key" title="Key">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Key"></i>
+            </span>
+            <br>
+            <span class='label'>Key</span>
+        </div>
+        <div class="icon" data-name="Keyboard-Dock" title="Keyboard-Dock">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Keyboard-Dock"></i>
+            </span>
+            <br>
+            <span class='label'>Keyboard-Dock</span>
+        </div>
+        <div class="icon" data-name="Keyboard-Layout-Float" title="Keyboard-Layout-Float">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Keyboard-Layout-Float"></i>
+            </span>
+            <br>
+            <span class='label'>Keyboard-Layout-Float</span>
+        </div>
+        <div class="icon" data-name="Keyboard-Layout-One-Handed Left" title="Keyboard-Layout-One-Handed Left">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Keyboard-Layout-One-Handed Left"></i>
+            </span>
+            <br>
+            <span class='label'>Keyboard-Layout-One-Handed Left</span>
+        </div>
+        <div class="icon" data-name="Keyboard-Layout-Resize" title="Keyboard-Layout-Resize">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Keyboard-Layout-Resize"></i>
+            </span>
+            <br>
+            <span class='label'>Keyboard-Layout-Resize</span>
+        </div>
+        <div class="icon" data-name="Keyboard-Layout-Split" title="Keyboard-Layout-Split">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Keyboard-Layout-Split"></i>
+            </span>
+            <br>
+            <span class='label'>Keyboard-Layout-Split</span>
+        </div>
+        <div class="icon" data-name="Keyboard-Shift-Uppercase" title="Keyboard-Shift-Uppercase">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Keyboard-Shift-Uppercase"></i>
+            </span>
+            <br>
+            <span class='label'>Keyboard-Shift-Uppercase</span>
+        </div>
+        <div class="icon" data-name="Keyboard-Shift" title="Keyboard-Shift">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Keyboard-Shift"></i>
+            </span>
+            <br>
+            <span class='label'>Keyboard-Shift</span>
+        </div>
+        <div class="icon" data-name="Keyboard-Tab" title="Keyboard-Tab">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Keyboard-Tab"></i>
+            </span>
+            <br>
+            <span class='label'>Keyboard-Tab</span>
+        </div>
+        <div class="icon" data-name="Keyboard" title="Keyboard">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Keyboard"></i>
+            </span>
+            <br>
+            <span class='label'>Keyboard</span>
+        </div>
+        <div class="icon" data-name="Laptop" title="Laptop">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Laptop"></i>
+            </span>
+            <br>
+            <span class='label'>Laptop</span>
+        </div>
+        <div class="icon" data-name="Lasso" title="Lasso">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Lasso"></i>
+            </span>
+            <br>
+            <span class='label'>Lasso</span>
+        </div>
+        <div class="icon" data-name="Launcher-Settings" title="Launcher-Settings">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Launcher-Settings"></i>
+            </span>
+            <br>
+            <span class='label'>Launcher-Settings</span>
+        </div>
+        <div class="icon" data-name="Layer" title="Layer">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Layer"></i>
+            </span>
+            <br>
+            <span class='label'>Layer</span>
+        </div>
+        <div class="icon" data-name="Library" title="Library">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Library"></i>
+            </span>
+            <br>
+            <span class='label'>Library</span>
+        </div>
+        <div class="icon" data-name="Lightbulb-Circle" title="Lightbulb-Circle">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Lightbulb-Circle"></i>
+            </span>
+            <br>
+            <span class='label'>Lightbulb-Circle</span>
+        </div>
+        <div class="icon" data-name="Lightbulb" title="Lightbulb">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Lightbulb"></i>
+            </span>
+            <br>
+            <span class='label'>Lightbulb</span>
+        </div>
+        <div class="icon" data-name="Link" title="Link">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Link"></i>
+            </span>
+            <br>
+            <span class='label'>Link</span>
+        </div>
+        <div class="icon" data-name="List" title="List">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-List"></i>
+            </span>
+            <br>
+            <span class='label'>List</span>
+        </div>
+        <div class="icon" data-name="Live" title="Live">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Live"></i>
+            </span>
+            <br>
+            <span class='label'>Live</span>
+        </div>
+        <div class="icon" data-name="Local-Language" title="Local-Language">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Local-Language"></i>
+            </span>
+            <br>
+            <span class='label'>Local-Language</span>
+        </div>
+        <div class="icon" data-name="Location-Not-Found" title="Location-Not-Found">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Location-Not-Found"></i>
+            </span>
+            <br>
+            <span class='label'>Location-Not-Found</span>
+        </div>
+        <div class="icon" data-name="Location" title="Location">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Location"></i>
+            </span>
+            <br>
+            <span class='label'>Location</span>
+        </div>
+        <div class="icon" data-name="Lock-Shield" title="Lock-Shield">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Lock-Shield"></i>
+            </span>
+            <br>
+            <span class='label'>Lock-Shield</span>
+        </div>
+        <div class="icon" data-name="Lock" title="Lock">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Lock"></i>
+            </span>
+            <br>
+            <span class='label'>Lock</span>
+        </div>
+        <div class="icon" data-name="Magic-Wand" title="Magic-Wand">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Magic-Wand"></i>
+            </span>
+            <br>
+            <span class='label'>Magic-Wand</span>
+        </div>
+        <div class="icon" data-name="Mail-Add" title="Mail-Add">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Mail-Add"></i>
+            </span>
+            <br>
+            <span class='label'>Mail-Add</span>
+        </div>
+        <div class="icon" data-name="Mail-All-Accounts" title="Mail-All-Accounts">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Mail-All-Accounts"></i>
+            </span>
+            <br>
+            <span class='label'>Mail-All-Accounts</span>
+        </div>
+        <div class="icon" data-name="Mail-All" title="Mail-All">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Mail-All"></i>
+            </span>
+            <br>
+            <span class='label'>Mail-All</span>
+        </div>
+        <div class="icon" data-name="Mail-Inbox" title="Mail-Inbox">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Mail-Inbox"></i>
+            </span>
+            <br>
+            <span class='label'>Mail-Inbox</span>
+        </div>
+        <div class="icon" data-name="Mail-Move-To-Focussed" title="Mail-Move-To-Focussed">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Mail-Move-To-Focussed"></i>
+            </span>
+            <br>
+            <span class='label'>Mail-Move-To-Focussed</span>
+        </div>
+        <div class="icon" data-name="Mail-Outbox" title="Mail-Outbox">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Mail-Outbox"></i>
+            </span>
+            <br>
+            <span class='label'>Mail-Outbox</span>
+        </div>
+        <div class="icon" data-name="Mail-Read" title="Mail-Read">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Mail-Read"></i>
+            </span>
+            <br>
+            <span class='label'>Mail-Read</span>
+        </div>
+        <div class="icon" data-name="Mail-Unread" title="Mail-Unread">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Mail-Unread"></i>
+            </span>
+            <br>
+            <span class='label'>Mail-Unread</span>
+        </div>
+        <div class="icon" data-name="Mail-Unsubscribe" title="Mail-Unsubscribe">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Mail-Unsubscribe"></i>
+            </span>
+            <br>
+            <span class='label'>Mail-Unsubscribe</span>
+        </div>
+        <div class="icon" data-name="Mail" title="Mail">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Mail"></i>
+            </span>
+            <br>
+            <span class='label'>Mail</span>
+        </div>
+        <div class="icon" data-name="Malware-Detected" title="Malware-Detected">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Malware-Detected"></i>
+            </span>
+            <br>
+            <span class='label'>Malware-Detected</span>
+        </div>
+        <div class="icon" data-name="Manufacturer" title="Manufacturer">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Manufacturer"></i>
+            </span>
+            <br>
+            <span class='label'>Manufacturer</span>
+        </div>
+        <div class="icon" data-name="Map" title="Map">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Map"></i>
+            </span>
+            <br>
+            <span class='label'>Map</span>
+        </div>
+        <div class="icon" data-name="Mark-Read" title="Mark-Read">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Mark-Read"></i>
+            </span>
+            <br>
+            <span class='label'>Mark-Read</span>
+        </div>
+        <div class="icon" data-name="Mark-Unread" title="Mark-Unread">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Mark-Unread"></i>
+            </span>
+            <br>
+            <span class='label'>Mark-Unread</span>
+        </div>
+        <div class="icon" data-name="Match-App-Layout" title="Match-App-Layout">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Match-App-Layout"></i>
+            </span>
+            <br>
+            <span class='label'>Match-App-Layout</span>
+        </div>
+        <div class="icon" data-name="Meet-Now" title="Meet-Now">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Meet-Now"></i>
+            </span>
+            <br>
+            <span class='label'>Meet-Now</span>
+        </div>
+        <div class="icon" data-name="Megaphone-Off" title="Megaphone-Off">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Megaphone-Off"></i>
+            </span>
+            <br>
+            <span class='label'>Megaphone-Off</span>
+        </div>
+        <div class="icon" data-name="Megaphone" title="Megaphone">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Megaphone"></i>
+            </span>
+            <br>
+            <span class='label'>Megaphone</span>
+        </div>
+        <div class="icon" data-name="Mention" title="Mention">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Mention"></i>
+            </span>
+            <br>
+            <span class='label'>Mention</span>
+        </div>
+        <div class="icon" data-name="Mic-Off" title="Mic-Off">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Mic-Off"></i>
+            </span>
+            <br>
+            <span class='label'>Mic-Off</span>
+        </div>
+        <div class="icon" data-name="Mic-On" title="Mic-On">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Mic-On"></i>
+            </span>
+            <br>
+            <span class='label'>Mic-On</span>
+        </div>
+        <div class="icon" data-name="Midi" title="Midi">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Midi"></i>
+            </span>
+            <br>
+            <span class='label'>Midi</span>
+        </div>
+        <div class="icon" data-name="Missing-Metadata" title="Missing-Metadata">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Missing-Metadata"></i>
+            </span>
+            <br>
+            <span class='label'>Missing-Metadata</span>
+        </div>
+        <div class="icon" data-name="Mobile-Optimized" title="Mobile-Optimized">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Mobile-Optimized"></i>
+            </span>
+            <br>
+            <span class='label'>Mobile-Optimized</span>
+        </div>
+        <div class="icon" data-name="More-Vertical" title="More-Vertical">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-More-Vertical"></i>
+            </span>
+            <br>
+            <span class='label'>More-Vertical</span>
+        </div>
+        <div class="icon" data-name="More" title="More">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-More"></i>
+            </span>
+            <br>
+            <span class='label'>More</span>
+        </div>
+        <div class="icon" data-name="Movies-and-TV" title="Movies-and-TV">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Movies-and-TV"></i>
+            </span>
+            <br>
+            <span class='label'>Movies-and-TV</span>
+        </div>
+        <div class="icon" data-name="Multiselect" title="Multiselect">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Multiselect"></i>
+            </span>
+            <br>
+            <span class='label'>Multiselect</span>
+        </div>
+        <div class="icon" data-name="Music" title="Music">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Music"></i>
+            </span>
+            <br>
+            <span class='label'>Music</span>
+        </div>
+        <div class="icon" data-name="My-Location" title="My-Location">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-My-Location"></i>
+            </span>
+            <br>
+            <span class='label'>My-Location</span>
+        </div>
+        <div class="icon" data-name="Navigation" title="Navigation">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Navigation"></i>
+            </span>
+            <br>
+            <span class='label'>Navigation</span>
+        </div>
+        <div class="icon" data-name="Network-Check" title="Network-Check">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Network-Check"></i>
+            </span>
+            <br>
+            <span class='label'>Network-Check</span>
+        </div>
+        <div class="icon" data-name="New" title="New">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-New"></i>
+            </span>
+            <br>
+            <span class='label'>New</span>
+        </div>
+        <div class="icon" data-name="News" title="News">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-News"></i>
+            </span>
+            <br>
+            <span class='label'>News</span>
+        </div>
+        <div class="icon" data-name="None" title="None">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-None"></i>
+            </span>
+            <br>
+            <span class='label'>None</span>
+        </div>
+        <div class="icon" data-name="Note" title="Note">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Note"></i>
+            </span>
+            <br>
+            <span class='label'>Note</span>
+        </div>
+        <div class="icon" data-name="Notebook-Error" title="Notebook-Error">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Notebook-Error"></i>
+            </span>
+            <br>
+            <span class='label'>Notebook-Error</span>
+        </div>
+        <div class="icon" data-name="Notebook-Lightning" title="Notebook-Lightning">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Notebook-Lightning"></i>
+            </span>
+            <br>
+            <span class='label'>Notebook-Lightning</span>
+        </div>
+        <div class="icon" data-name="Notebook-Question-Mark" title="Notebook-Question-Mark">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Notebook-Question-Mark"></i>
+            </span>
+            <br>
+            <span class='label'>Notebook-Question-Mark</span>
+        </div>
+        <div class="icon" data-name="Notebook-Section" title="Notebook-Section">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Notebook-Section"></i>
+            </span>
+            <br>
+            <span class='label'>Notebook-Section</span>
+        </div>
+        <div class="icon" data-name="Notebook-Sync" title="Notebook-Sync">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Notebook-Sync"></i>
+            </span>
+            <br>
+            <span class='label'>Notebook-Sync</span>
+        </div>
+        <div class="icon" data-name="Notebook" title="Notebook">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Notebook"></i>
+            </span>
+            <br>
+            <span class='label'>Notebook</span>
+        </div>
+        <div class="icon" data-name="Notepad" title="Notepad">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Notepad"></i>
+            </span>
+            <br>
+            <span class='label'>Notepad</span>
+        </div>
+        <div class="icon" data-name="Number-Row" title="Number-Row">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Number-Row"></i>
+            </span>
+            <br>
+            <span class='label'>Number-Row</span>
+        </div>
+        <div class="icon" data-name="Number-Symbol" title="Number-Symbol">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Number-Symbol"></i>
+            </span>
+            <br>
+            <span class='label'>Number-Symbol</span>
+        </div>
+        <div class="icon" data-name="Office-Apps" title="Office-Apps">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Office-Apps"></i>
+            </span>
+            <br>
+            <span class='label'>Office-Apps</span>
+        </div>
+        <div class="icon" data-name="Open-Folder" title="Open-Folder">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Open-Folder"></i>
+            </span>
+            <br>
+            <span class='label'>Open-Folder</span>
+        </div>
+        <div class="icon" data-name="Open-In-Browser" title="Open-In-Browser">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Open-In-Browser"></i>
+            </span>
+            <br>
+            <span class='label'>Open-In-Browser</span>
+        </div>
+        <div class="icon" data-name="Open" title="Open">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Open"></i>
+            </span>
+            <br>
+            <span class='label'>Open</span>
+        </div>
+        <div class="icon" data-name="Organization-Chart" title="Organization-Chart">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Organization-Chart"></i>
+            </span>
+            <br>
+            <span class='label'>Organization-Chart</span>
+        </div>
+        <div class="icon" data-name="Owner" title="Owner">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Owner"></i>
+            </span>
+            <br>
+            <span class='label'>Owner</span>
+        </div>
+        <div class="icon" data-name="PPTOutline" title="PPTOutline">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-PPTOutline"></i>
+            </span>
+            <br>
+            <span class='label'>PPTOutline</span>
+        </div>
+        <div class="icon" data-name="PSTN-Call" title="PSTN-Call">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-PSTN-Call"></i>
+            </span>
+            <br>
+            <span class='label'>PSTN-Call</span>
+        </div>
+        <div class="icon" data-name="Page-View" title="Page-View">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Page-View"></i>
+            </span>
+            <br>
+            <span class='label'>Page-View</span>
+        </div>
+        <div class="icon" data-name="Pair" title="Pair">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Pair"></i>
+            </span>
+            <br>
+            <span class='label'>Pair</span>
+        </div>
+        <div class="icon" data-name="Patient" title="Patient">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Patient"></i>
+            </span>
+            <br>
+            <span class='label'>Patient</span>
+        </div>
+        <div class="icon" data-name="Pause" title="Pause">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Pause"></i>
+            </span>
+            <br>
+            <span class='label'>Pause</span>
+        </div>
+        <div class="icon" data-name="Payment" title="Payment">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Payment"></i>
+            </span>
+            <br>
+            <span class='label'>Payment</span>
+        </div>
+        <div class="icon" data-name="Pen-Settings" title="Pen-Settings">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Pen-Settings"></i>
+            </span>
+            <br>
+            <span class='label'>Pen-Settings</span>
+        </div>
+        <div class="icon" data-name="People-Add" title="People-Add">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-People-Add"></i>
+            </span>
+            <br>
+            <span class='label'>People-Add</span>
+        </div>
+        <div class="icon" data-name="People-Community-Add" title="People-Community-Add">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-People-Community-Add"></i>
+            </span>
+            <br>
+            <span class='label'>People-Community-Add</span>
+        </div>
+        <div class="icon" data-name="People-Community" title="People-Community">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-People-Community"></i>
+            </span>
+            <br>
+            <span class='label'>People-Community</span>
+        </div>
+        <div class="icon" data-name="People-Search" title="People-Search">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-People-Search"></i>
+            </span>
+            <br>
+            <span class='label'>People-Search</span>
+        </div>
+        <div class="icon" data-name="People-Team" title="People-Team">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-People-Team"></i>
+            </span>
+            <br>
+            <span class='label'>People-Team</span>
+        </div>
+        <div class="icon" data-name="People" title="People">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-People"></i>
+            </span>
+            <br>
+            <span class='label'>People</span>
+        </div>
+        <div class="icon" data-name="Person-Accounts" title="Person-Accounts">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Person-Accounts"></i>
+            </span>
+            <br>
+            <span class='label'>Person-Accounts</span>
+        </div>
+        <div class="icon" data-name="Person-Add" title="Person-Add">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Person-Add"></i>
+            </span>
+            <br>
+            <span class='label'>Person-Add</span>
+        </div>
+        <div class="icon" data-name="Person-Available" title="Person-Available">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Person-Available"></i>
+            </span>
+            <br>
+            <span class='label'>Person-Available</span>
+        </div>
+        <div class="icon" data-name="Person-Block" title="Person-Block">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Person-Block"></i>
+            </span>
+            <br>
+            <span class='label'>Person-Block</span>
+        </div>
+        <div class="icon" data-name="Person-Delete" title="Person-Delete">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Person-Delete"></i>
+            </span>
+            <br>
+            <span class='label'>Person-Delete</span>
+        </div>
+        <div class="icon" data-name="Person-Feedback" title="Person-Feedback">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Person-Feedback"></i>
+            </span>
+            <br>
+            <span class='label'>Person-Feedback</span>
+        </div>
+        <div class="icon" data-name="Person-Leave" title="Person-Leave">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Person-Leave"></i>
+            </span>
+            <br>
+            <span class='label'>Person-Leave</span>
+        </div>
+        <div class="icon" data-name="Person-Tentative" title="Person-Tentative">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Person-Tentative"></i>
+            </span>
+            <br>
+            <span class='label'>Person-Tentative</span>
+        </div>
+        <div class="icon" data-name="Person-Voice" title="Person-Voice">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Person-Voice"></i>
+            </span>
+            <br>
+            <span class='label'>Person-Voice</span>
+        </div>
+        <div class="icon" data-name="Person" title="Person">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Person"></i>
+            </span>
+            <br>
+            <span class='label'>Person</span>
+        </div>
+        <div class="icon" data-name="Phone-Add-New-App" title="Phone-Add-New-App">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Phone-Add-New-App"></i>
+            </span>
+            <br>
+            <span class='label'>Phone-Add-New-App</span>
+        </div>
+        <div class="icon" data-name="Phone-Desktop" title="Phone-Desktop">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Phone-Desktop"></i>
+            </span>
+            <br>
+            <span class='label'>Phone-Desktop</span>
+        </div>
+        <div class="icon" data-name="Phone-Error" title="Phone-Error">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Phone-Error"></i>
+            </span>
+            <br>
+            <span class='label'>Phone-Error</span>
+        </div>
+        <div class="icon" data-name="Phone-Home-Lock" title="Phone-Home-Lock">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Phone-Home-Lock"></i>
+            </span>
+            <br>
+            <span class='label'>Phone-Home-Lock</span>
+        </div>
+        <div class="icon" data-name="Phone-Laptop" title="Phone-Laptop">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Phone-Laptop"></i>
+            </span>
+            <br>
+            <span class='label'>Phone-Laptop</span>
+        </div>
+        <div class="icon" data-name="Phone-Link-Setup" title="Phone-Link-Setup">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Phone-Link-Setup"></i>
+            </span>
+            <br>
+            <span class='label'>Phone-Link-Setup</span>
+        </div>
+        <div class="icon" data-name="Phone-Mobile" title="Phone-Mobile">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Phone-Mobile"></i>
+            </span>
+            <br>
+            <span class='label'>Phone-Mobile</span>
+        </div>
+        <div class="icon" data-name="Phone-Page-Header" title="Phone-Page-Header">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Phone-Page-Header"></i>
+            </span>
+            <br>
+            <span class='label'>Phone-Page-Header</span>
+        </div>
+        <div class="icon" data-name="Phone-Pagination" title="Phone-Pagination">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Phone-Pagination"></i>
+            </span>
+            <br>
+            <span class='label'>Phone-Pagination</span>
+        </div>
+        <div class="icon" data-name="Phone-Screen-Time" title="Phone-Screen-Time">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Phone-Screen-Time"></i>
+            </span>
+            <br>
+            <span class='label'>Phone-Screen-Time</span>
+        </div>
+        <div class="icon" data-name="Phone-Status-Bar" title="Phone-Status-Bar">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Phone-Status-Bar"></i>
+            </span>
+            <br>
+            <span class='label'>Phone-Status-Bar</span>
+        </div>
+        <div class="icon" data-name="Phone-Tablet" title="Phone-Tablet">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Phone-Tablet"></i>
+            </span>
+            <br>
+            <span class='label'>Phone-Tablet</span>
+        </div>
+        <div class="icon" data-name="Phone-To-PC" title="Phone-To-PC">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Phone-To-PC"></i>
+            </span>
+            <br>
+            <span class='label'>Phone-To-PC</span>
+        </div>
+        <div class="icon" data-name="Phone-Update" title="Phone-Update">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Phone-Update"></i>
+            </span>
+            <br>
+            <span class='label'>Phone-Update</span>
+        </div>
+        <div class="icon" data-name="Phone-Vertical-Scroll" title="Phone-Vertical-Scroll">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Phone-Vertical-Scroll"></i>
+            </span>
+            <br>
+            <span class='label'>Phone-Vertical-Scroll</span>
+        </div>
+        <div class="icon" data-name="Phone-Vibrate" title="Phone-Vibrate">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Phone-Vibrate"></i>
+            </span>
+            <br>
+            <span class='label'>Phone-Vibrate</span>
+        </div>
+        <div class="icon" data-name="Phone" title="Phone">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Phone"></i>
+            </span>
+            <br>
+            <span class='label'>Phone</span>
+        </div>
+        <div class="icon" data-name="Photo-Filter" title="Photo-Filter">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Photo-Filter"></i>
+            </span>
+            <br>
+            <span class='label'>Photo-Filter</span>
+        </div>
+        <div class="icon" data-name="Photo-Rotate" title="Photo-Rotate">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Photo-Rotate"></i>
+            </span>
+            <br>
+            <span class='label'>Photo-Rotate</span>
+        </div>
+        <div class="icon" data-name="Pin-Off" title="Pin-Off">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Pin-Off"></i>
+            </span>
+            <br>
+            <span class='label'>Pin-Off</span>
+        </div>
+        <div class="icon" data-name="Pin" title="Pin">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Pin"></i>
+            </span>
+            <br>
+            <span class='label'>Pin</span>
+        </div>
+        <div class="icon" data-name="Play-Circle" title="Play-Circle">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Play-Circle"></i>
+            </span>
+            <br>
+            <span class='label'>Play-Circle</span>
+        </div>
+        <div class="icon" data-name="Play" title="Play">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Play"></i>
+            </span>
+            <br>
+            <span class='label'>Play</span>
+        </div>
+        <div class="icon" data-name="Point-Scan" title="Point-Scan">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Point-Scan"></i>
+            </span>
+            <br>
+            <span class='label'>Point-Scan</span>
+        </div>
+        <div class="icon" data-name="Poll" title="Poll">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Poll"></i>
+            </span>
+            <br>
+            <span class='label'>Poll</span>
+        </div>
+        <div class="icon" data-name="Power" title="Power">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Power"></i>
+            </span>
+            <br>
+            <span class='label'>Power</span>
+        </div>
+        <div class="icon" data-name="Predictions" title="Predictions">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Predictions"></i>
+            </span>
+            <br>
+            <span class='label'>Predictions</span>
+        </div>
+        <div class="icon" data-name="Premium" title="Premium">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Premium"></i>
+            </span>
+            <br>
+            <span class='label'>Premium</span>
+        </div>
+        <div class="icon" data-name="Presenter" title="Presenter">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Presenter"></i>
+            </span>
+            <br>
+            <span class='label'>Presenter</span>
+        </div>
+        <div class="icon" data-name="Print" title="Print">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Print"></i>
+            </span>
+            <br>
+            <span class='label'>Print</span>
+        </div>
+        <div class="icon" data-name="QR-Code" title="QR-Code">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-QR-Code"></i>
+            </span>
+            <br>
+            <span class='label'>QR-Code</span>
+        </div>
+        <div class="icon" data-name="Radio-Button" title="Radio-Button">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Radio-Button"></i>
+            </span>
+            <br>
+            <span class='label'>Radio-Button</span>
+        </div>
+        <div class="icon" data-name="Re-Order" title="Re-Order">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Re-Order"></i>
+            </span>
+            <br>
+            <span class='label'>Re-Order</span>
+        </div>
+        <div class="icon" data-name="Read-Aloud" title="Read-Aloud">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Read-Aloud"></i>
+            </span>
+            <br>
+            <span class='label'>Read-Aloud</span>
+        </div>
+        <div class="icon" data-name="Read-Only" title="Read-Only">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Read-Only"></i>
+            </span>
+            <br>
+            <span class='label'>Read-Only</span>
+        </div>
+        <div class="icon" data-name="Reading-List-Add" title="Reading-List-Add">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Reading-List-Add"></i>
+            </span>
+            <br>
+            <span class='label'>Reading-List-Add</span>
+        </div>
+        <div class="icon" data-name="Reading-List" title="Reading-List">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Reading-List"></i>
+            </span>
+            <br>
+            <span class='label'>Reading-List</span>
+        </div>
+        <div class="icon" data-name="Reading-Mode-Mobile" title="Reading-Mode-Mobile">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Reading-Mode-Mobile"></i>
+            </span>
+            <br>
+            <span class='label'>Reading-Mode-Mobile</span>
+        </div>
+        <div class="icon" data-name="Reading-Mode" title="Reading-Mode">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Reading-Mode"></i>
+            </span>
+            <br>
+            <span class='label'>Reading-Mode</span>
+        </div>
+        <div class="icon" data-name="Recommended" title="Recommended">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Recommended"></i>
+            </span>
+            <br>
+            <span class='label'>Recommended</span>
+        </div>
+        <div class="icon" data-name="Remove-Recent" title="Remove-Recent">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Remove-Recent"></i>
+            </span>
+            <br>
+            <span class='label'>Remove-Recent</span>
+        </div>
+        <div class="icon" data-name="Remove" title="Remove">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Remove"></i>
+            </span>
+            <br>
+            <span class='label'>Remove</span>
+        </div>
+        <div class="icon" data-name="Rename" title="Rename">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Rename"></i>
+            </span>
+            <br>
+            <span class='label'>Rename</span>
+        </div>
+        <div class="icon" data-name="Resize-Image" title="Resize-Image">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Resize-Image"></i>
+            </span>
+            <br>
+            <span class='label'>Resize-Image</span>
+        </div>
+        <div class="icon" data-name="Resize-Video" title="Resize-Video">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Resize-Video"></i>
+            </span>
+            <br>
+            <span class='label'>Resize-Video</span>
+        </div>
+        <div class="icon" data-name="Reward" title="Reward">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Reward"></i>
+            </span>
+            <br>
+            <span class='label'>Reward</span>
+        </div>
+        <div class="icon" data-name="Rewind" title="Rewind">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Rewind"></i>
+            </span>
+            <br>
+            <span class='label'>Rewind</span>
+        </div>
+        <div class="icon" data-name="Router" title="Router">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Router"></i>
+            </span>
+            <br>
+            <span class='label'>Router</span>
+        </div>
+        <div class="icon" data-name="Safe" title="Safe">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Safe"></i>
+            </span>
+            <br>
+            <span class='label'>Safe</span>
+        </div>
+        <div class="icon" data-name="Save-As" title="Save-As">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Save-As"></i>
+            </span>
+            <br>
+            <span class='label'>Save-As</span>
+        </div>
+        <div class="icon" data-name="Save-Copy" title="Save-Copy">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Save-Copy"></i>
+            </span>
+            <br>
+            <span class='label'>Save-Copy</span>
+        </div>
+        <div class="icon" data-name="Save" title="Save">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Save"></i>
+            </span>
+            <br>
+            <span class='label'>Save</span>
+        </div>
+        <div class="icon" data-name="Scan" title="Scan">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Scan"></i>
+            </span>
+            <br>
+            <span class='label'>Scan</span>
+        </div>
+        <div class="icon" data-name="Scratchpad" title="Scratchpad">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Scratchpad"></i>
+            </span>
+            <br>
+            <span class='label'>Scratchpad</span>
+        </div>
+        <div class="icon" data-name="Screenshot" title="Screenshot">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Screenshot"></i>
+            </span>
+            <br>
+            <span class='label'>Screenshot</span>
+        </div>
+        <div class="icon" data-name="Search-Square" title="Search-Square">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Search-Square"></i>
+            </span>
+            <br>
+            <span class='label'>Search-Square</span>
+        </div>
+        <div class="icon" data-name="Search" title="Search">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Search"></i>
+            </span>
+            <br>
+            <span class='label'>Search</span>
+        </div>
+        <div class="icon" data-name="Select-All-Off" title="Select-All-Off">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Select-All-Off"></i>
+            </span>
+            <br>
+            <span class='label'>Select-All-Off</span>
+        </div>
+        <div class="icon" data-name="Select-All" title="Select-All">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Select-All"></i>
+            </span>
+            <br>
+            <span class='label'>Select-All</span>
+        </div>
+        <div class="icon" data-name="Send-Copy" title="Send-Copy">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Send-Copy"></i>
+            </span>
+            <br>
+            <span class='label'>Send-Copy</span>
+        </div>
+        <div class="icon" data-name="Send-Logging" title="Send-Logging">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Send-Logging"></i>
+            </span>
+            <br>
+            <span class='label'>Send-Logging</span>
+        </div>
+        <div class="icon" data-name="Send" title="Send">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Send"></i>
+            </span>
+            <br>
+            <span class='label'>Send</span>
+        </div>
+        <div class="icon" data-name="Setting-Mic" title="Setting-Mic">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Setting-Mic"></i>
+            </span>
+            <br>
+            <span class='label'>Setting-Mic</span>
+        </div>
+        <div class="icon" data-name="Settings-Dev" title="Settings-Dev">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Settings-Dev"></i>
+            </span>
+            <br>
+            <span class='label'>Settings-Dev</span>
+        </div>
+        <div class="icon" data-name="Settings" title="Settings">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Settings"></i>
+            </span>
+            <br>
+            <span class='label'>Settings</span>
+        </div>
+        <div class="icon" data-name="Shapes" title="Shapes">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Shapes"></i>
+            </span>
+            <br>
+            <span class='label'>Shapes</span>
+        </div>
+        <div class="icon" data-name="Share-Android" title="Share-Android">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Share-Android"></i>
+            </span>
+            <br>
+            <span class='label'>Share-Android</span>
+        </div>
+        <div class="icon" data-name="Share-Close-Tray" title="Share-Close-Tray">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Share-Close-Tray"></i>
+            </span>
+            <br>
+            <span class='label'>Share-Close-Tray</span>
+        </div>
+        <div class="icon" data-name="Share-Desktop" title="Share-Desktop">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Share-Desktop"></i>
+            </span>
+            <br>
+            <span class='label'>Share-Desktop</span>
+        </div>
+        <div class="icon" data-name="Share-Screen" title="Share-Screen">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Share-Screen"></i>
+            </span>
+            <br>
+            <span class='label'>Share-Screen</span>
+        </div>
+        <div class="icon" data-name="Share-Stop" title="Share-Stop">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Share-Stop"></i>
+            </span>
+            <br>
+            <span class='label'>Share-Stop</span>
+        </div>
+        <div class="icon" data-name="Share-iOS" title="Share-iOS">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Share-iOS"></i>
+            </span>
+            <br>
+            <span class='label'>Share-iOS</span>
+        </div>
+        <div class="icon" data-name="Share" title="Share">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Share"></i>
+            </span>
+            <br>
+            <span class='label'>Share</span>
+        </div>
+        <div class="icon" data-name="Shield" title="Shield">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Shield"></i>
+            </span>
+            <br>
+            <span class='label'>Shield</span>
+        </div>
+        <div class="icon" data-name="Shifts-Pending" title="Shifts-Pending">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Shifts-Pending"></i>
+            </span>
+            <br>
+            <span class='label'>Shifts-Pending</span>
+        </div>
+        <div class="icon" data-name="Shifts-Team" title="Shifts-Team">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Shifts-Team"></i>
+            </span>
+            <br>
+            <span class='label'>Shifts-Team</span>
+        </div>
+        <div class="icon" data-name="Shifts" title="Shifts">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Shifts"></i>
+            </span>
+            <br>
+            <span class='label'>Shifts</span>
+        </div>
+        <div class="icon" data-name="Sign-Out" title="Sign-Out">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Sign-Out"></i>
+            </span>
+            <br>
+            <span class='label'>Sign-Out</span>
+        </div>
+        <div class="icon" data-name="Signature" title="Signature">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Signature"></i>
+            </span>
+            <br>
+            <span class='label'>Signature</span>
+        </div>
+        <div class="icon" data-name="Signed" title="Signed">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Signed"></i>
+            </span>
+            <br>
+            <span class='label'>Signed</span>
+        </div>
+        <div class="icon" data-name="Site-Blocked" title="Site-Blocked">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Site-Blocked"></i>
+            </span>
+            <br>
+            <span class='label'>Site-Blocked</span>
+        </div>
+        <div class="icon" data-name="Site-Warning" title="Site-Warning">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Site-Warning"></i>
+            </span>
+            <br>
+            <span class='label'>Site-Warning</span>
+        </div>
+        <div class="icon" data-name="Sleep" title="Sleep">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Sleep"></i>
+            </span>
+            <br>
+            <span class='label'>Sleep</span>
+        </div>
+        <div class="icon" data-name="Slide-Add" title="Slide-Add">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Slide-Add"></i>
+            </span>
+            <br>
+            <span class='label'>Slide-Add</span>
+        </div>
+        <div class="icon" data-name="Slow-Mode" title="Slow-Mode">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Slow-Mode"></i>
+            </span>
+            <br>
+            <span class='label'>Slow-Mode</span>
+        </div>
+        <div class="icon" data-name="Snooze" title="Snooze">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Snooze"></i>
+            </span>
+            <br>
+            <span class='label'>Snooze</span>
+        </div>
+        <div class="icon" data-name="Sound-Source" title="Sound-Source">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Sound-Source"></i>
+            </span>
+            <br>
+            <span class='label'>Sound-Source</span>
+        </div>
+        <div class="icon" data-name="Spacebar" title="Spacebar">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Spacebar"></i>
+            </span>
+            <br>
+            <span class='label'>Spacebar</span>
+        </div>
+        <div class="icon" data-name="Speaker-0" title="Speaker-0">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Speaker-0"></i>
+            </span>
+            <br>
+            <span class='label'>Speaker-0</span>
+        </div>
+        <div class="icon" data-name="Speaker-1" title="Speaker-1">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Speaker-1"></i>
+            </span>
+            <br>
+            <span class='label'>Speaker-1</span>
+        </div>
+        <div class="icon" data-name="Speaker-Bluetooth" title="Speaker-Bluetooth">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Speaker-Bluetooth"></i>
+            </span>
+            <br>
+            <span class='label'>Speaker-Bluetooth</span>
+        </div>
+        <div class="icon" data-name="Speaker-None" title="Speaker-None">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Speaker-None"></i>
+            </span>
+            <br>
+            <span class='label'>Speaker-None</span>
+        </div>
+        <div class="icon" data-name="Speaker-Off" title="Speaker-Off">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Speaker-Off"></i>
+            </span>
+            <br>
+            <span class='label'>Speaker-Off</span>
+        </div>
+        <div class="icon" data-name="Speaker-Settings" title="Speaker-Settings">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Speaker-Settings"></i>
+            </span>
+            <br>
+            <span class='label'>Speaker-Settings</span>
+        </div>
+        <div class="icon" data-name="Speaker" title="Speaker">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Speaker"></i>
+            </span>
+            <br>
+            <span class='label'>Speaker</span>
+        </div>
+        <div class="icon" data-name="Star-Add" title="Star-Add">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Star-Add"></i>
+            </span>
+            <br>
+            <span class='label'>Star-Add</span>
+        </div>
+        <div class="icon" data-name="Star-Off" title="Star-Off">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Star-Off"></i>
+            </span>
+            <br>
+            <span class='label'>Star-Off</span>
+        </div>
+        <div class="icon" data-name="Star" title="Star">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Star"></i>
+            </span>
+            <br>
+            <span class='label'>Star</span>
+        </div>
+        <div class="icon" data-name="Status" title="Status">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Status"></i>
+            </span>
+            <br>
+            <span class='label'>Status</span>
+        </div>
+        <div class="icon" data-name="Sticker-Add" title="Sticker-Add">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Sticker-Add"></i>
+            </span>
+            <br>
+            <span class='label'>Sticker-Add</span>
+        </div>
+        <div class="icon" data-name="Sticker" title="Sticker">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Sticker"></i>
+            </span>
+            <br>
+            <span class='label'>Sticker</span>
+        </div>
+        <div class="icon" data-name="Storage" title="Storage">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Storage"></i>
+            </span>
+            <br>
+            <span class='label'>Storage</span>
+        </div>
+        <div class="icon" data-name="Store" title="Store">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Store"></i>
+            </span>
+            <br>
+            <span class='label'>Store</span>
+        </div>
+        <div class="icon" data-name="Style-Guide" title="Style-Guide">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Style-Guide"></i>
+            </span>
+            <br>
+            <span class='label'>Style-Guide</span>
+        </div>
+        <div class="icon" data-name="Sub-Grid" title="Sub-Grid">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Sub-Grid"></i>
+            </span>
+            <br>
+            <span class='label'>Sub-Grid</span>
+        </div>
+        <div class="icon" data-name="Subway" title="Subway">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Subway"></i>
+            </span>
+            <br>
+            <span class='label'>Subway</span>
+        </div>
+        <div class="icon" data-name="Suggestion" title="Suggestion">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Suggestion"></i>
+            </span>
+            <br>
+            <span class='label'>Suggestion</span>
+        </div>
+        <div class="icon" data-name="Surface-Earbuds" title="Surface-Earbuds">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Surface-Earbuds"></i>
+            </span>
+            <br>
+            <span class='label'>Surface-Earbuds</span>
+        </div>
+        <div class="icon" data-name="Surface-Hub" title="Surface-Hub">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Surface-Hub"></i>
+            </span>
+            <br>
+            <span class='label'>Surface-Hub</span>
+        </div>
+        <div class="icon" data-name="Swipe-Down" title="Swipe-Down">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Swipe-Down"></i>
+            </span>
+            <br>
+            <span class='label'>Swipe-Down</span>
+        </div>
+        <div class="icon" data-name="Swipe-Right" title="Swipe-Right">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Swipe-Right"></i>
+            </span>
+            <br>
+            <span class='label'>Swipe-Right</span>
+        </div>
+        <div class="icon" data-name="Swipe-Up" title="Swipe-Up">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Swipe-Up"></i>
+            </span>
+            <br>
+            <span class='label'>Swipe-Up</span>
+        </div>
+        <div class="icon" data-name="Switch-Video" title="Switch-Video">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Switch-Video"></i>
+            </span>
+            <br>
+            <span class='label'>Switch-Video</span>
+        </div>
+        <div class="icon" data-name="Symbols" title="Symbols">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Symbols"></i>
+            </span>
+            <br>
+            <span class='label'>Symbols</span>
+        </div>
+        <div class="icon" data-name="System" title="System">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-System"></i>
+            </span>
+            <br>
+            <span class='label'>System</span>
+        </div>
+        <div class="icon" data-name="Tab-In-Private" title="Tab-In-Private">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Tab-In-Private"></i>
+            </span>
+            <br>
+            <span class='label'>Tab-In-Private</span>
+        </div>
+        <div class="icon" data-name="Tab-New" title="Tab-New">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Tab-New"></i>
+            </span>
+            <br>
+            <span class='label'>Tab-New</span>
+        </div>
+        <div class="icon" data-name="Tab-Sweep" title="Tab-Sweep">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Tab-Sweep"></i>
+            </span>
+            <br>
+            <span class='label'>Tab-Sweep</span>
+        </div>
+        <div class="icon" data-name="Tab-Tracking-Prevention" title="Tab-Tracking-Prevention">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Tab-Tracking-Prevention"></i>
+            </span>
+            <br>
+            <span class='label'>Tab-Tracking-Prevention</span>
+        </div>
+        <div class="icon" data-name="Tab" title="Tab">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Tab"></i>
+            </span>
+            <br>
+            <span class='label'>Tab</span>
+        </div>
+        <div class="icon" data-name="Table-Add" title="Table-Add">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Table-Add"></i>
+            </span>
+            <br>
+            <span class='label'>Table-Add</span>
+        </div>
+        <div class="icon" data-name="Table-Delete" title="Table-Delete">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Table-Delete"></i>
+            </span>
+            <br>
+            <span class='label'>Table-Delete</span>
+        </div>
+        <div class="icon" data-name="Table-Edit" title="Table-Edit">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Table-Edit"></i>
+            </span>
+            <br>
+            <span class='label'>Table-Edit</span>
+        </div>
+        <div class="icon" data-name="Table-Settings" title="Table-Settings">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Table-Settings"></i>
+            </span>
+            <br>
+            <span class='label'>Table-Settings</span>
+        </div>
+        <div class="icon" data-name="Table" title="Table">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Table"></i>
+            </span>
+            <br>
+            <span class='label'>Table</span>
+        </div>
+        <div class="icon" data-name="Tablet" title="Tablet">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Tablet"></i>
+            </span>
+            <br>
+            <span class='label'>Tablet</span>
+        </div>
+        <div class="icon" data-name="Tabs" title="Tabs">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Tabs"></i>
+            </span>
+            <br>
+            <span class='label'>Tabs</span>
+        </div>
+        <div class="icon" data-name="Tag" title="Tag">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Tag"></i>
+            </span>
+            <br>
+            <span class='label'>Tag</span>
+        </div>
+        <div class="icon" data-name="Tap-Double-outline" title="Tap-Double-outline">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Tap-Double-outline"></i>
+            </span>
+            <br>
+            <span class='label'>Tap-Double-outline</span>
+        </div>
+        <div class="icon" data-name="Tap-Single" title="Tap-Single">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Tap-Single"></i>
+            </span>
+            <br>
+            <span class='label'>Tap-Single</span>
+        </div>
+        <div class="icon" data-name="Target" title="Target">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Target"></i>
+            </span>
+            <br>
+            <span class='label'>Target</span>
+        </div>
+        <div class="icon" data-name="Team-Add" title="Team-Add">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Team-Add"></i>
+            </span>
+            <br>
+            <span class='label'>Team-Add</span>
+        </div>
+        <div class="icon" data-name="Team-Delete" title="Team-Delete">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Team-Delete"></i>
+            </span>
+            <br>
+            <span class='label'>Team-Delete</span>
+        </div>
+        <div class="icon" data-name="Teddy" title="Teddy">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Teddy"></i>
+            </span>
+            <br>
+            <span class='label'>Teddy</span>
+        </div>
+        <div class="icon" data-name="Temperature" title="Temperature">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Temperature"></i>
+            </span>
+            <br>
+            <span class='label'>Temperature</span>
+        </div>
+        <div class="icon" data-name="Test-Call" title="Test-Call">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Test-Call"></i>
+            </span>
+            <br>
+            <span class='label'>Test-Call</span>
+        </div>
+        <div class="icon" data-name="Text-Add" title="Text-Add">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Add"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Add</span>
+        </div>
+        <div class="icon" data-name="Text-Align-Center" title="Text-Align-Center">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Align-Center"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Align-Center</span>
+        </div>
+        <div class="icon" data-name="Text-Align-Distributed" title="Text-Align-Distributed">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Align-Distributed"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Align-Distributed</span>
+        </div>
+        <div class="icon" data-name="Text-Align-Justify" title="Text-Align-Justify">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Align-Justify"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Align-Justify</span>
+        </div>
+        <div class="icon" data-name="Text-Align-Left" title="Text-Align-Left">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Align-Left"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Align-Left</span>
+        </div>
+        <div class="icon" data-name="Text-Align-Right" title="Text-Align-Right">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Align-Right"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Align-Right</span>
+        </div>
+        <div class="icon" data-name="Text-Bold" title="Text-Bold">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Bold"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Bold</span>
+        </div>
+        <div class="icon" data-name="Text-Bullet-List-Square" title="Text-Bullet-List-Square">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Bullet-List-Square"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Bullet-List-Square</span>
+        </div>
+        <div class="icon" data-name="Text-Bullet-List" title="Text-Bullet-List">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Bullet-List"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Bullet-List</span>
+        </div>
+        <div class="icon" data-name="Text-Color" title="Text-Color">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Color"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Color</span>
+        </div>
+        <div class="icon" data-name="Text-Description" title="Text-Description">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Description"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Description</span>
+        </div>
+        <div class="icon" data-name="Text-Edit-Style" title="Text-Edit-Style">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Edit-Style"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Edit-Style</span>
+        </div>
+        <div class="icon" data-name="Text-First-Line" title="Text-First-Line">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-First-Line"></i>
+            </span>
+            <br>
+            <span class='label'>Text-First-Line</span>
+        </div>
+        <div class="icon" data-name="Text-Font-Size" title="Text-Font-Size">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Font-Size"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Font-Size</span>
+        </div>
+        <div class="icon" data-name="Text-Font" title="Text-Font">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Font"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Font</span>
+        </div>
+        <div class="icon" data-name="Text-Hanging" title="Text-Hanging">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Hanging"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Hanging</span>
+        </div>
+        <div class="icon" data-name="Text-Indent-Decrease" title="Text-Indent-Decrease">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Indent-Decrease"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Indent-Decrease</span>
+        </div>
+        <div class="icon" data-name="Text-Indent-Increase" title="Text-Indent-Increase">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Indent-Increase"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Indent-Increase</span>
+        </div>
+        <div class="icon" data-name="Text-Italic" title="Text-Italic">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Italic"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Italic</span>
+        </div>
+        <div class="icon" data-name="Text-Line-Spacing" title="Text-Line-Spacing">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Line-Spacing"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Line-Spacing</span>
+        </div>
+        <div class="icon" data-name="Text-Number-List-LTR" title="Text-Number-List-LTR">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Number-List-LTR"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Number-List-LTR</span>
+        </div>
+        <div class="icon" data-name="Text-Number-List-RTL" title="Text-Number-List-RTL">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Number-List-RTL"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Number-List-RTL</span>
+        </div>
+        <div class="icon" data-name="Text-Quote" title="Text-Quote">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Quote"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Quote</span>
+        </div>
+        <div class="icon" data-name="Text-Strikethrough" title="Text-Strikethrough">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Strikethrough"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Strikethrough</span>
+        </div>
+        <div class="icon" data-name="Text-Underline" title="Text-Underline">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text-Underline"></i>
+            </span>
+            <br>
+            <span class='label'>Text-Underline</span>
+        </div>
+        <div class="icon" data-name="Text" title="Text">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Text"></i>
+            </span>
+            <br>
+            <span class='label'>Text</span>
+        </div>
+        <div class="icon" data-name="Thinking" title="Thinking">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Thinking"></i>
+            </span>
+            <br>
+            <span class='label'>Thinking</span>
+        </div>
+        <div class="icon" data-name="Thumb-Dislike" title="Thumb-Dislike">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Thumb-Dislike"></i>
+            </span>
+            <br>
+            <span class='label'>Thumb-Dislike</span>
+        </div>
+        <div class="icon" data-name="Thumb-Like" title="Thumb-Like">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Thumb-Like"></i>
+            </span>
+            <br>
+            <span class='label'>Thumb-Like</span>
+        </div>
+        <div class="icon" data-name="Ticket" title="Ticket">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Ticket"></i>
+            </span>
+            <br>
+            <span class='label'>Ticket</span>
+        </div>
+        <div class="icon" data-name="Time-And-Weather" title="Time-And-Weather">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Time-And-Weather"></i>
+            </span>
+            <br>
+            <span class='label'>Time-And-Weather</span>
+        </div>
+        <div class="icon" data-name="Time-Picker" title="Time-Picker">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Time-Picker"></i>
+            </span>
+            <br>
+            <span class='label'>Time-Picker</span>
+        </div>
+        <div class="icon" data-name="Timeline" title="Timeline">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Timeline"></i>
+            </span>
+            <br>
+            <span class='label'>Timeline</span>
+        </div>
+        <div class="icon" data-name="Timer-10" title="Timer-10">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Timer-10"></i>
+            </span>
+            <br>
+            <span class='label'>Timer-10</span>
+        </div>
+        <div class="icon" data-name="Timer-2" title="Timer-2">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Timer-2"></i>
+            </span>
+            <br>
+            <span class='label'>Timer-2</span>
+        </div>
+        <div class="icon" data-name="Timer-Off" title="Timer-Off">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Timer-Off"></i>
+            </span>
+            <br>
+            <span class='label'>Timer-Off</span>
+        </div>
+        <div class="icon" data-name="Timer" title="Timer">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Timer"></i>
+            </span>
+            <br>
+            <span class='label'>Timer</span>
+        </div>
+        <div class="icon" data-name="Top-Speed" title="Top-Speed">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Top-Speed"></i>
+            </span>
+            <br>
+            <span class='label'>Top-Speed</span>
+        </div>
+        <div class="icon" data-name="Translate" title="Translate">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Translate"></i>
+            </span>
+            <br>
+            <span class='label'>Translate</span>
+        </div>
+        <div class="icon" data-name="Triple-Column" title="Triple-Column">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Triple-Column"></i>
+            </span>
+            <br>
+            <span class='label'>Triple-Column</span>
+        </div>
+        <div class="icon" data-name="Trophy" title="Trophy">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Trophy"></i>
+            </span>
+            <br>
+            <span class='label'>Trophy</span>
+        </div>
+        <div class="icon" data-name="USB-Port" title="USB-Port">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-USB-Port"></i>
+            </span>
+            <br>
+            <span class='label'>USB-Port</span>
+        </div>
+        <div class="icon" data-name="USB-Stick" title="USB-Stick">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-USB-Stick"></i>
+            </span>
+            <br>
+            <span class='label'>USB-Stick</span>
+        </div>
+        <div class="icon" data-name="Uninstall-App" title="Uninstall-App">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Uninstall-App"></i>
+            </span>
+            <br>
+            <span class='label'>Uninstall-App</span>
+        </div>
+        <div class="icon" data-name="Unlock" title="Unlock">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Unlock"></i>
+            </span>
+            <br>
+            <span class='label'>Unlock</span>
+        </div>
+        <div class="icon" data-name="Unsave" title="Unsave">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Unsave"></i>
+            </span>
+            <br>
+            <span class='label'>Unsave</span>
+        </div>
+        <div class="icon" data-name="Upgrade" title="Upgrade">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Upgrade"></i>
+            </span>
+            <br>
+            <span class='label'>Upgrade</span>
+        </div>
+        <div class="icon" data-name="Video-Clip" title="Video-Clip">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Video-Clip"></i>
+            </span>
+            <br>
+            <span class='label'>Video-Clip</span>
+        </div>
+        <div class="icon" data-name="Video-Off" title="Video-Off">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Video-Off"></i>
+            </span>
+            <br>
+            <span class='label'>Video-Off</span>
+        </div>
+        <div class="icon" data-name="Video-Play-Pause" title="Video-Play-Pause">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Video-Play-Pause"></i>
+            </span>
+            <br>
+            <span class='label'>Video-Play-Pause</span>
+        </div>
+        <div class="icon" data-name="Video-Security" title="Video-Security">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Video-Security"></i>
+            </span>
+            <br>
+            <span class='label'>Video-Security</span>
+        </div>
+        <div class="icon" data-name="Video" title="Video">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Video"></i>
+            </span>
+            <br>
+            <span class='label'>Video</span>
+        </div>
+        <div class="icon" data-name="View-Desktop-Mobile" title="View-Desktop-Mobile">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-View-Desktop-Mobile"></i>
+            </span>
+            <br>
+            <span class='label'>View-Desktop-Mobile</span>
+        </div>
+        <div class="icon" data-name="View-Desktop" title="View-Desktop">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-View-Desktop"></i>
+            </span>
+            <br>
+            <span class='label'>View-Desktop</span>
+        </div>
+        <div class="icon" data-name="Voicemail" title="Voicemail">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Voicemail"></i>
+            </span>
+            <br>
+            <span class='label'>Voicemail</span>
+        </div>
+        <div class="icon" data-name="Wallpaper" title="Wallpaper">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Wallpaper"></i>
+            </span>
+            <br>
+            <span class='label'>Wallpaper</span>
+        </div>
+        <div class="icon" data-name="Warning" title="Warning">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Warning"></i>
+            </span>
+            <br>
+            <span class='label'>Warning</span>
+        </div>
+        <div class="icon" data-name="Weather-Blowing-Snow" title="Weather-Blowing-Snow">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Weather-Blowing-Snow"></i>
+            </span>
+            <br>
+            <span class='label'>Weather-Blowing-Snow</span>
+        </div>
+        <div class="icon" data-name="Weather-Cloudy" title="Weather-Cloudy">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Weather-Cloudy"></i>
+            </span>
+            <br>
+            <span class='label'>Weather-Cloudy</span>
+        </div>
+        <div class="icon" data-name="Weather-Duststorm" title="Weather-Duststorm">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Weather-Duststorm"></i>
+            </span>
+            <br>
+            <span class='label'>Weather-Duststorm</span>
+        </div>
+        <div class="icon" data-name="Weather-Fog" title="Weather-Fog">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Weather-Fog"></i>
+            </span>
+            <br>
+            <span class='label'>Weather-Fog</span>
+        </div>
+        <div class="icon" data-name="Weather-Hail-Day" title="Weather-Hail-Day">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Weather-Hail-Day"></i>
+            </span>
+            <br>
+            <span class='label'>Weather-Hail-Day</span>
+        </div>
+        <div class="icon" data-name="Weather-Hail-Night" title="Weather-Hail-Night">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Weather-Hail-Night"></i>
+            </span>
+            <br>
+            <span class='label'>Weather-Hail-Night</span>
+        </div>
+        <div class="icon" data-name="Weather-Moon" title="Weather-Moon">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Weather-Moon"></i>
+            </span>
+            <br>
+            <span class='label'>Weather-Moon</span>
+        </div>
+        <div class="icon" data-name="Weather-Partly-Cloudy-Day" title="Weather-Partly-Cloudy-Day">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Weather-Partly-Cloudy-Day"></i>
+            </span>
+            <br>
+            <span class='label'>Weather-Partly-Cloudy-Day</span>
+        </div>
+        <div class="icon" data-name="Weather-Partly-Cloudy-Night" title="Weather-Partly-Cloudy-Night">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Weather-Partly-Cloudy-Night"></i>
+            </span>
+            <br>
+            <span class='label'>Weather-Partly-Cloudy-Night</span>
+        </div>
+        <div class="icon" data-name="Weather-Rain-Showers-Day" title="Weather-Rain-Showers-Day">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Weather-Rain-Showers-Day"></i>
+            </span>
+            <br>
+            <span class='label'>Weather-Rain-Showers-Day</span>
+        </div>
+        <div class="icon" data-name="Weather-Rain-Showers-Night" title="Weather-Rain-Showers-Night">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Weather-Rain-Showers-Night"></i>
+            </span>
+            <br>
+            <span class='label'>Weather-Rain-Showers-Night</span>
+        </div>
+        <div class="icon" data-name="Weather-Rain-Snow" title="Weather-Rain-Snow">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Weather-Rain-Snow"></i>
+            </span>
+            <br>
+            <span class='label'>Weather-Rain-Snow</span>
+        </div>
+        <div class="icon" data-name="Weather-Rain" title="Weather-Rain">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Weather-Rain"></i>
+            </span>
+            <br>
+            <span class='label'>Weather-Rain</span>
+        </div>
+        <div class="icon" data-name="Weather-Snow-Shower-Day" title="Weather-Snow-Shower-Day">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Weather-Snow-Shower-Day"></i>
+            </span>
+            <br>
+            <span class='label'>Weather-Snow-Shower-Day</span>
+        </div>
+        <div class="icon" data-name="Weather-Snow-Shower-Night" title="Weather-Snow-Shower-Night">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Weather-Snow-Shower-Night"></i>
+            </span>
+            <br>
+            <span class='label'>Weather-Snow-Shower-Night</span>
+        </div>
+        <div class="icon" data-name="Weather-Snow" title="Weather-Snow">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Weather-Snow"></i>
+            </span>
+            <br>
+            <span class='label'>Weather-Snow</span>
+        </div>
+        <div class="icon" data-name="Weather-Snowflake" title="Weather-Snowflake">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Weather-Snowflake"></i>
+            </span>
+            <br>
+            <span class='label'>Weather-Snowflake</span>
+        </div>
+        <div class="icon" data-name="Weather-Squalls" title="Weather-Squalls">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Weather-Squalls"></i>
+            </span>
+            <br>
+            <span class='label'>Weather-Squalls</span>
+        </div>
+        <div class="icon" data-name="Weather-Sunny" title="Weather-Sunny">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Weather-Sunny"></i>
+            </span>
+            <br>
+            <span class='label'>Weather-Sunny</span>
+        </div>
+        <div class="icon" data-name="Weather-Thunderstorm" title="Weather-Thunderstorm">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Weather-Thunderstorm"></i>
+            </span>
+            <br>
+            <span class='label'>Weather-Thunderstorm</span>
+        </div>
+        <div class="icon" data-name="Web-Asset" title="Web-Asset">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Web-Asset"></i>
+            </span>
+            <br>
+            <span class='label'>Web-Asset</span>
+        </div>
+        <div class="icon" data-name="Weekend" title="Weekend">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Weekend"></i>
+            </span>
+            <br>
+            <span class='label'>Weekend</span>
+        </div>
+        <div class="icon" data-name="Whiteboard" title="Whiteboard">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Whiteboard"></i>
+            </span>
+            <br>
+            <span class='label'>Whiteboard</span>
+        </div>
+        <div class="icon" data-name="WiFi-1" title="WiFi-1">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-WiFi-1"></i>
+            </span>
+            <br>
+            <span class='label'>WiFi-1</span>
+        </div>
+        <div class="icon" data-name="WiFi-2" title="WiFi-2">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-WiFi-2"></i>
+            </span>
+            <br>
+            <span class='label'>WiFi-2</span>
+        </div>
+        <div class="icon" data-name="WiFi-3" title="WiFi-3">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-WiFi-3"></i>
+            </span>
+            <br>
+            <span class='label'>WiFi-3</span>
+        </div>
+        <div class="icon" data-name="WiFi-4" title="WiFi-4">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-WiFi-4"></i>
+            </span>
+            <br>
+            <span class='label'>WiFi-4</span>
+        </div>
+        <div class="icon" data-name="WiFi-Protected" title="WiFi-Protected">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-WiFi-Protected"></i>
+            </span>
+            <br>
+            <span class='label'>WiFi-Protected</span>
+        </div>
+        <div class="icon" data-name="Window-Dev-Tools" title="Window-Dev-Tools">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Window-Dev-Tools"></i>
+            </span>
+            <br>
+            <span class='label'>Window-Dev-Tools</span>
+        </div>
+        <div class="icon" data-name="Xbox-Console" title="Xbox-Console">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-Xbox-Console"></i>
+            </span>
+            <br>
+            <span class='label'>Xbox-Console</span>
+        </div>
+        <div class="icon" data-name="iOS-Arrow-Left" title="iOS-Arrow-Left">
+            <span class="inner">
+                <i class="fluent fluent-icons-regular-iOS-Arrow-Left"></i>
+            </span>
+            <br>
+            <span class='label'>iOS-Arrow-Left</span>
+        </div>
+    </div>
+
+    <div id="notification">📋 Copied: <span id="notification-id"></span></div>
+    <input type="text" id="copier">
+
+<script type="text/javascript">
+    let icons = document.getElementsByClassName('icon');
+    let copier = document.getElementById('copier');
+    let notification = document.getElementById('notification');
+    let notificationText = document.getElementById('notification-id');
+    let search = document.getElementById('search');
+    let timer;
+
+    for(i=0;i<icons.length;i++){
+        let icon = icons[i]
+        icon.onclick = function(e){
+            let name = this.getAttribute('data-name');
+
+            copier.value = name;
+            copier.select();
+            copier.setSelectionRange(0, 99999)
+            document.execCommand('copy');
+
+            notificationText.innerHTML = name;
+            animateNotification();
+            e.preventDefault();
+        }
+    }
+
+    function animateNotification(){
+        window.clearTimeout(timer);
+        search.focus();
+        notification.classList.add('show');
+        timer = window.setTimeout(function(){
+            notification.classList.remove('show');
+        }, 3000);
+    }
+
+    search.addEventListener('keyup', function(){
+        let filter = search.value.toUpperCase();
+        let wrapper = document.getElementById('icons');
+        let icon = wrapper.getElementsByTagName('div');
+
+        for (i = 0; i < icon.length; i++) {
+            compareText = icon[i].textContent || icon[i].innerText;
+            if (compareText.toUpperCase().indexOf(filter) > -1) {
+                icon[i].style.display = '';
+            } else {
+                icon[i].style.display = 'none';
+            }
+        }
+    });
+
+    search.focus();
+
+</script>
+</body>
+</html>
