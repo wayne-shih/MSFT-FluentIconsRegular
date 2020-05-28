@@ -1,5 +1,5 @@
 {
-  "name": "fluent-icons",
+  "name": "fluent-icons-regular",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
@@ -7,8 +7,8 @@
     "clean": "rm -rf dist && mkdir dist",
     "svgo": "svgo -f src/icons/ --config config.yml",
     "move": "sh util.sh",
-    "export-to-csv": "node src/export/index.js -f dist/fluent.ttf > dist/fluent.csv",
-    "fonts": "icon-font-generator src/icons/*.svg -o dist -n fluent -p fluent --csstp src/template/styles.hbs --height=1000 --center --codepoints src/template/mapping.json --json false --types 'ttf'",
+    "export-to-csv": "node src/export/index.js -f dist/fluent-icons-regular.ttf > dist/fluent-icons-regular.csv",
+    "fonts": "icon-font-generator src/icons/*.svg -o dist -n fluent-icons-regular -p fluent-icons-regular --csstp src/template/styles.hbs --height=1000 --center --codepoints src/template/mapping.json --json false --types 'ttf'",
     "dev": "npm run clean && npm run move && npm run svgo && npm run fonts -- --html true --htmltp src/template/preview.hbs && npm run export-to-csv"
   },
   "repository": {
