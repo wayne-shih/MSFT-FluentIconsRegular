@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "fluent-icons-regular";
-	src: url("./fluent-icons-regular.ttf?67e119bf3f15f8d8107f56acd45c8bd6") format("truetype");
+	src: url("./fluent-icons-regular.ttf?144017fcbc8f7618ab5e356f90619348") format("truetype");
 }
 
 .fluent[class*='fluent-'] {
@@ -340,7 +340,7 @@
 .fluent-icons-regular-Key:before { content: "\f23c" }
 .fluent-icons-regular-Keyboard-Dock:before { content: "\f23d" }
 .fluent-icons-regular-Keyboard-Layout-Float:before { content: "\f23e" }
-.fluent-icons-regular-Keyboard-Layout-One-Handed Left:before { content: "\f23f" }
+.fluent-icons-regular-Keyboard-Layout-One-Handed-Left:before { content: "\f23f" }
 .fluent-icons-regular-Keyboard-Layout-Resize:before { content: "\f240" }
 .fluent-icons-regular-Keyboard-Layout-Split:before { content: "\f241" }
 .fluent-icons-regular-Keyboard-Shift-Uppercase:before { content: "\f242" }
