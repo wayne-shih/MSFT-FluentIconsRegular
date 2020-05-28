@@ -1,0 +1,3 @@
+[submodule "vscode-codicons"]
+	path = vscode-codicons
+	url = https://github.com/microsoft/vscode-codicons/
